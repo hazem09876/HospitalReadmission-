@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,InsuranceType,AdmissionID,AdmissionDate,DischargeDate,LengthOfStay,PriorAdmissions,DiagnosisCategory,DischargeDisposition,FollowUpScheduled,Readmitted30Days
+1,76,Male,Medicare,1001,2024-04-02,2024-04-10,8,2,Diabetes,Home,Yes,Yes
+2,85,Male,Medicare,1002,2024-01-21,2024-01-29,8,1,Kidney Disease,Home,No,Yes
+3,48,Male,Private,1003,2024-05-10,2024-05-17,7,0,Kidney Disease,Skilled Nursing,Yes,No
+4,26,Male,Medicaid,1004,2024-03-28,2024-04-02,5,1,Kidney Disease,Home Health,Yes,No
+5,62,Female,Private,1005,2024-05-09,2024-05-18,9,3,Heart Failure,Home,No,Yes
+6,45,Male,Private,1006,2024-06-09,2024-06-14,5,1,Diabetes,Home,Yes,No
+7,46,Female,Medicare,1007,2024-03-29,2024-03-31,2,2,Diabetes,Skilled Nursing,No,No
+8,83,Female,Medicare,1008,2024-06-18,2024-06-27,9,3,Infection,Home,No,No
+9,84,Female,Medicare,1009,2024-01-15,2024-01-22,7,1,Heart Failure,Home,Yes,No
+10,71,Male,Private,1010,2024-02-20,2024-02-25,5,2,Heart Failure,Home Health,No,Yes
+11,88,Female,Medicare,1011,2024-05-10,2024-05-16,6,2,Diabetes,Home,No,No
+12,31,Male,Private,1012,2024-01-21,2024-01-23,2,2,COPD,Skilled Nursing,Yes,Yes
+13,42,Female,Private,1013,2024-05-11,2024-05-13,2,3,Kidney Disease,Home,No,No
+14,38,Male,Private,1014,2024-01-09,2024-01-12,3,0,Heart Failure,Home Health,No,Yes
+15,26,Male,Medicaid,1015,2024-03-24,2024-03-29,5,2,Kidney Disease,Skilled Nursing,No,Yes
+16,84,Female,Medicare,1016,2024-06-20,2024-06-26,6,3,Infection,Home,No,Yes
+17,71,Female,Private,1017,2024-02-04,2024-02-11,7,0,Infection,Skilled Nursing,No,Yes
+18,60,Male,Private,1018,2024-02-19,2024-02-28,9,3,Heart Failure,Home,Yes,Yes
+19,26,Male,Medicaid,1019,2024-05-13,2024-05-20,7,1,Infection,Skilled Nursing,Yes,No
+20,28,Female,Private,1020,2024-02-23,2024-02-29,6,2,Infection,Skilled Nursing,No,No
+21,42,Male,Private,1021,2024-02-13,2024-02-16,3,1,Heart Failure,Skilled Nursing,No,No
+22,86,Female,Medicare,1022,2024-01-14,2024-01-22,8,3,Infection,Home,No,Yes
+23,39,Female,Medicaid,1023,2024-02-09,2024-02-15,6,3,COPD,Skilled Nursing,Yes,No
+24,77,Female,Private,1024,2024-01-24,2024-01-27,3,0,Kidney Disease,Skilled Nursing,Yes,No
+25,84,Male,Medicare,1025,2024-05-03,2024-05-09,6,0,COPD,Skilled Nursing,Yes,Yes
+26,53,Female,Medicare,1026,2024-01-15,2024-01-21,6,0,Diabetes,Home Health,Yes,No
+27,33,Male,Private,1027,2024-03-28,2024-03-30,2,3,Kidney Disease,Home,Yes,No
+28,32,Female,Medicaid,1028,2024-03-03,2024-03-07,4,2,Kidney Disease,Home,Yes,No
+29,32,Female,Medicaid,1029,2024-06-11,2024-06-15,4,0,COPD,Home Health,No,No
+30,29,Male,Medicaid,1030,2024-02-10,2024-02-15,5,2,Infection,Skilled Nursing,No,Yes
+31,36,Female,Private,1031,2024-06-10,2024-06-12,2,3,COPD,Home,No,Yes
+32,47,Male,Private,1032,2024-03-02,2024-03-11,9,0,Heart Failure,Home,Yes,No
+33,68,Male,Medicare,1033,2024-04-13,2024-04-20,7,2,Heart Failure,Home Health,Yes,Yes
+34,59,Female,Private,1034,2024-04-10,2024-04-18,8,1,COPD,Skilled Nursing,Yes,No
+35,27,Female,Private,1035,2024-01-01,2024-01-07,6,1,Infection,Home Health,Yes,No
+36,38,Male,Medicare,1036,2024-04-12,2024-04-16,4,0,Infection,Home Health,No,No
+37,39,Female,Private,1037,2024-03-30,2024-04-02,3,3,Heart Failure,Skilled Nursing,Yes,Yes
+38,75,Female,Private,1038,2024-03-03,2024-03-12,9,2,Heart Failure,Home,Yes,Yes
+39,76,Female,Medicare,1039,2024-04-05,2024-04-10,5,1,COPD,Home Health,No,Yes
+40,47,Male,Private,1040,2024-05-22,2024-05-26,4,0,Kidney Disease,Home,Yes,No
+41,60,Male,Medicaid,1041,2024-01-13,2024-01-22,9,2,COPD,Home,No,Yes
+42,83,Male,Private,1042,2024-03-26,2024-03-31,5,1,Heart Failure,Home,No,Yes
+43,66,Female,Medicare,1043,2024-02-14,2024-02-21,7,0,Infection,Home Health,No,No
+44,30,Female,Private,1044,2024-01-28,2024-02-02,5,3,Diabetes,Home,Yes,No
+45,68,Male,Private,1045,2024-03-24,2024-03-31,7,1,Heart Failure,Home,No,Yes
+46,86,Male,Medicare,1046,2024-05-08,2024-05-10,2,2,Kidney Disease,Home,Yes,Yes
+47,86,Male,Medicare,1047,2024-04-30,2024-05-05,5,0,COPD,Home Health,Yes,No
+48,27,Male,Private,1048,2024-04-12,2024-04-19,7,3,Heart Failure,Skilled Nursing,Yes,Yes
+49,51,Female,Medicaid,1049,2024-05-16,2024-05-23,7,0,COPD,Skilled Nursing,No,Yes
+50,75,Female,Medicare,1050,2024-06-20,2024-06-29,9,2,Diabetes,Home Health,No,No
+51,83,Male,Medicare,1051,2024-04-27,2024-05-06,9,3,Kidney Disease,Skilled Nursing,Yes,Yes
+52,76,Male,Medicare,1052,2024-04-22,2024-04-29,7,0,COPD,Home Health,Yes,No
+53,82,Female,Medicare,1053,2024-02-21,2024-02-26,5,1,Infection,Skilled Nursing,No,Yes
+54,63,Male,Private,1054,2024-05-09,2024-05-13,4,0,Kidney Disease,Home Health,Yes,No
+55,80,Male,Medicare,1055,2024-03-21,2024-03-25,4,0,Heart Failure,Skilled Nursing,Yes,Yes
+56,26,Male,Medicaid,1056,2024-05-09,2024-05-14,5,1,COPD,Skilled Nursing,No,Yes
+57,25,Female,Medicaid,1057,2024-05-26,2024-06-02,7,1,Heart Failure,Home,No,No
+58,77,Male,Medicare,1058,2024-06-20,2024-06-23,3,3,COPD,Skilled Nursing,No,Yes
+59,56,Female,Private,1059,2024-03-08,2024-03-16,8,2,Infection,Skilled Nursing,Yes,No
+60,80,Male,Medicare,1060,2024-05-02,2024-05-04,2,2,COPD,Skilled Nursing,Yes,No
+61,62,Male,Private,1061,2024-01-24,2024-01-30,6,3,Heart Failure,Home Health,No,No
+62,35,Male,Medicaid,1062,2024-05-23,2024-05-25,2,0,COPD,Skilled Nursing,Yes,No
+63,83,Male,Medicare,1063,2024-03-10,2024-03-19,9,0,Kidney Disease,Home Health,Yes,No
+64,27,Male,Medicaid,1064,2024-05-27,2024-06-01,5,2,COPD,Home Health,Yes,Yes
+65,60,Female,Medicaid,1065,2024-05-26,2024-05-29,3,2,Infection,Skilled Nursing,Yes,No
+66,43,Female,Private,1066,2024-05-27,2024-06-05,9,2,Heart Failure,Home Health,Yes,No
+67,76,Male,Medicare,1067,2024-06-09,2024-06-18,9,3,Infection,Home Health,No,No
+68,63,Male,Private,1068,2024-03-22,2024-03-31,9,0,COPD,Home Health,No,Yes
+69,35,Male,Medicaid,1069,2024-06-26,2024-07-04,8,2,Diabetes,Home Health,No,Yes
+70,66,Female,Medicaid,1070,2024-04-08,2024-04-16,8,3,Heart Failure,Home Health,Yes,Yes
+71,40,Female,Medicare,1071,2024-03-30,2024-04-08,9,0,Kidney Disease,Home Health,No,No
+72,84,Female,Medicare,1072,2024-04-22,2024-04-25,3,0,Kidney Disease,Home,No,No
+73,72,Male,Medicare,1073,2024-05-19,2024-05-25,6,0,Infection,Home,Yes,No
+74,56,Female,Private,1074,2024-01-09,2024-01-11,2,2,Diabetes,Skilled Nursing,No,Yes
+75,43,Male,Medicaid,1075,2024-02-17,2024-02-26,9,2,Diabetes,Skilled Nursing,No,Yes
+76,44,Female,Private,1076,2024-05-31,2024-06-07,7,3,Diabetes,Skilled Nursing,Yes,No
+77,57,Male,Private,1077,2024-05-31,2024-06-05,5,2,Infection,Skilled Nursing,Yes,No
+78,60,Female,Private,1078,2024-06-14,2024-06-23,9,3,Heart Failure,Home Health,No,Yes
+79,49,Female,Private,1079,2024-04-02,2024-04-05,3,3,Infection,Skilled Nursing,Yes,No
+80,78,Female,Private,1080,2024-06-11,2024-06-20,9,0,COPD,Skilled Nursing,Yes,Yes
+81,65,Female,Medicare,1081,2024-06-09,2024-06-14,5,0,COPD,Skilled Nursing,No,Yes
+82,38,Male,Private,1082,2024-01-21,2024-01-30,9,3,Heart Failure,Home,No,Yes
+83,32,Male,Private,1083,2024-05-14,2024-05-18,4,0,Kidney Disease,Home,No,No
+84,57,Female,Private,1084,2024-06-24,2024-06-29,5,2,COPD,Skilled Nursing,Yes,No
+85,46,Male,Medicaid,1085,2024-06-06,2024-06-13,7,1,COPD,Home,No,Yes
+86,75,Male,Medicaid,1086,2024-01-08,2024-01-12,4,2,Heart Failure,Home Health,Yes,No
+87,45,Female,Medicaid,1087,2024-01-30,2024-02-01,2,3,Infection,Skilled Nursing,No,No
+88,88,Female,Private,1088,2024-03-01,2024-03-10,9,2,Infection,Home Health,No,No
+89,28,Female,Medicaid,1089,2024-02-04,2024-02-13,9,0,Kidney Disease,Home Health,Yes,No
+90,41,Female,Private,1090,2024-06-20,2024-06-25,5,1,Diabetes,Home,No,No
+91,70,Female,Medicare,1091,2024-04-26,2024-05-03,7,2,Kidney Disease,Home,Yes,No
+92,61,Male,Private,1092,2024-01-24,2024-01-30,6,0,COPD,Skilled Nursing,Yes,No
+93,70,Male,Medicare,1093,2024-04-04,2024-04-08,4,3,Diabetes,Skilled Nursing,No,Yes
+94,87,Male,Private,1094,2024-06-08,2024-06-16,8,0,Infection,Skilled Nursing,Yes,No
+95,42,Female,Private,1095,2024-01-25,2024-01-28,3,2,Diabetes,Home Health,No,No
+96,78,Female,Medicare,1096,2024-02-27,2024-03-02,4,3,Kidney Disease,Skilled Nursing,Yes,Yes
+97,70,Female,Medicare,1097,2024-01-24,2024-01-27,3,3,Heart Failure,Home Health,No,Yes
+98,71,Female,Private,1098,2024-03-26,2024-04-03,8,1,Infection,Home,Yes,No
+99,51,Female,Private,1099,2024-05-09,2024-05-12,3,0,Heart Failure,Home,No,Yes
+100,57,Female,Private,1100,2024-05-16,2024-05-20,4,1,Diabetes,Home Health,No,No
+101,72,Male,Medicare,1101,2024-02-08,2024-02-14,6,1,Diabetes,Home Health,No,No
+102,50,Female,Private,1102,2024-04-08,2024-04-11,3,0,Heart Failure,Home Health,Yes,No
+103,48,Male,Medicaid,1103,2024-01-13,2024-01-18,5,1,Diabetes,Home,Yes,No
+104,31,Male,Medicaid,1104,2024-02-26,2024-03-02,5,0,COPD,Home,Yes,No
+105,44,Male,Private,1105,2024-03-05,2024-03-14,9,3,Infection,Skilled Nursing,Yes,No
+106,40,Male,Private,1106,2024-05-21,2024-05-26,5,2,Diabetes,Home Health,Yes,No
+107,39,Male,Medicaid,1107,2024-04-01,2024-04-04,3,1,COPD,Home Health,Yes,No
+108,56,Male,Medicaid,1108,2024-03-26,2024-03-30,4,0,Kidney Disease,Skilled Nursing,No,No
+109,82,Female,Medicaid,1109,2024-03-03,2024-03-10,7,0,COPD,Home,Yes,Yes
+110,46,Female,Medicaid,1110,2024-02-27,2024-03-01,3,1,Kidney Disease,Home,Yes,No
+111,73,Female,Medicare,1111,2024-06-28,2024-07-01,3,1,Diabetes,Home,No,Yes
+112,39,Female,Medicaid,1112,2024-02-23,2024-02-27,4,3,Heart Failure,Home Health,No,Yes
+113,32,Female,Medicaid,1113,2024-02-22,2024-02-27,5,3,Infection,Home,No,Yes
+114,29,Female,Private,1114,2024-04-12,2024-04-17,5,1,Kidney Disease,Home Health,No,No
+115,71,Male,Private,1115,2024-04-08,2024-04-16,8,3,Heart Failure,Home Health,No,Yes
+116,76,Female,Medicare,1116,2024-05-23,2024-05-29,6,1,Infection,Home Health,Yes,No
+117,54,Female,Medicaid,1117,2024-05-26,2024-05-28,2,3,COPD,Home Health,Yes,Yes
+118,87,Female,Medicare,1118,2024-01-19,2024-01-24,5,1,Kidney Disease,Skilled Nursing,No,Yes
+119,79,Male,Medicare,1119,2024-03-30,2024-04-05,6,1,Infection,Home Health,Yes,No
+120,86,Female,Medicare,1120,2024-01-23,2024-01-31,8,0,Infection,Home Health,Yes,No
+121,36,Male,Private,1121,2024-05-08,2024-05-11,3,1,Infection,Skilled Nursing,Yes,No
+122,25,Female,Private,1122,2024-02-03,2024-02-12,9,1,Diabetes,Home Health,No,No
+123,72,Female,Medicaid,1123,2024-03-29,2024-04-07,9,0,Kidney Disease,Home Health,No,No
+124,25,Female,Private,1124,2024-01-16,2024-01-22,6,2,COPD,Home,Yes,Yes
+125,88,Male,Medicare,1125,2024-03-09,2024-03-16,7,0,Infection,Home Health,No,No
+126,50,Male,Private,1126,2024-05-23,2024-05-27,4,0,Diabetes,Home,No,No
+127,81,Male,Private,1127,2024-01-29,2024-02-05,7,3,COPD,Home Health,Yes,No
+128,71,Female,Medicare,1128,2024-04-03,2024-04-10,7,1,COPD,Skilled Nursing,No,Yes
+129,40,Male,Private,1129,2024-06-24,2024-06-30,6,2,Infection,Home Health,No,Yes
+130,57,Male,Private,1130,2024-04-10,2024-04-18,8,1,Infection,Home,Yes,No
+131,34,Female,Private,1131,2024-03-09,2024-03-14,5,1,Kidney Disease,Skilled Nursing,Yes,No
+132,76,Male,Medicare,1132,2024-05-17,2024-05-20,3,2,Kidney Disease,Home Health,Yes,No
+133,82,Male,Medicare,1133,2024-04-05,2024-04-07,2,3,Infection,Skilled Nursing,Yes,No
+134,28,Female,Private,1134,2024-01-16,2024-01-25,9,3,Infection,Home Health,No,Yes
+135,26,Male,Private,1135,2024-05-07,2024-05-16,9,2,Heart Failure,Home,Yes,Yes
+136,48,Male,Private,1136,2024-05-19,2024-05-22,3,2,COPD,Skilled Nursing,Yes,Yes
+137,57,Female,Private,1137,2024-06-09,2024-06-15,6,2,Kidney Disease,Home Health,No,Yes
+138,67,Female,Private,1138,2024-04-10,2024-04-15,5,2,Infection,Home,Yes,No
+139,89,Female,Private,1139,2024-06-09,2024-06-18,9,1,Kidney Disease,Skilled Nursing,Yes,No
+140,67,Female,Medicare,1140,2024-02-13,2024-02-19,6,0,COPD,Skilled Nursing,Yes,No
+141,36,Female,Medicaid,1141,2024-04-04,2024-04-11,7,1,Heart Failure,Home,Yes,No
+142,59,Female,Private,1142,2024-03-21,2024-03-24,3,3,Kidney Disease,Home Health,No,Yes
+143,50,Female,Private,1143,2024-03-30,2024-04-06,7,1,Diabetes,Skilled Nursing,No,No
+144,31,Female,Medicare,1144,2024-02-27,2024-03-04,6,1,Heart Failure,Home Health,No,Yes
+145,53,Male,Medicare,1145,2024-04-29,2024-05-04,5,0,Kidney Disease,Skilled Nursing,Yes,No
+146,45,Female,Private,1146,2024-06-12,2024-06-15,3,0,COPD,Home Health,No,No
+147,48,Male,Medicaid,1147,2024-06-25,2024-06-29,4,3,Infection,Skilled Nursing,No,No
+148,60,Female,Private,1148,2024-04-05,2024-04-14,9,2,Diabetes,Home Health,Yes,No
+149,86,Male,Medicare,1149,2024-02-06,2024-02-11,5,0,Infection,Home Health,No,No
+150,79,Male,Medicare,1150,2024-01-13,2024-01-21,8,0,Diabetes,Home Health,No,Yes
+151,54,Female,Medicaid,1151,2024-01-17,2024-01-19,2,1,Heart Failure,Skilled Nursing,No,Yes
+152,37,Male,Private,1152,2024-01-19,2024-01-21,2,3,Kidney Disease,Home Health,No,No
+153,36,Male,Private,1153,2024-05-26,2024-05-31,5,0,COPD,Home Health,No,No
+154,52,Female,Private,1154,2024-05-07,2024-05-12,5,2,Kidney Disease,Home,Yes,No
+155,40,Female,Private,1155,2024-04-26,2024-05-02,6,2,Kidney Disease,Home Health,Yes,No
+156,36,Male,Medicaid,1156,2024-01-25,2024-01-30,5,2,Heart Failure,Home Health,Yes,Yes
+157,77,Male,Medicare,1157,2024-05-30,2024-06-08,9,0,Diabetes,Skilled Nursing,No,Yes
+158,63,Female,Medicaid,1158,2024-04-18,2024-04-24,6,1,COPD,Home Health,Yes,No
+159,82,Female,Medicare,1159,2024-06-15,2024-06-22,7,2,Kidney Disease,Skilled Nursing,Yes,No
+160,29,Female,Medicaid,1160,2024-06-11,2024-06-19,8,0,Infection,Home Health,No,No
+161,42,Male,Private,1161,2024-03-16,2024-03-18,2,1,Diabetes,Skilled Nursing,No,No
+162,82,Male,Medicare,1162,2024-05-24,2024-05-30,6,1,Infection,Home Health,No,Yes
+163,31,Female,Private,1163,2024-06-22,2024-06-28,6,3,Diabetes,Home,Yes,No
+164,66,Female,Medicare,1164,2024-05-16,2024-05-19,3,2,Infection,Home,No,No
+165,29,Female,Private,1165,2024-01-29,2024-02-04,6,1,COPD,Home Health,Yes,No
+166,32,Male,Private,1166,2024-04-18,2024-04-20,2,1,Kidney Disease,Home Health,Yes,No
+167,41,Female,Medicare,1167,2024-03-11,2024-03-13,2,0,Infection,Home,Yes,No
+168,28,Female,Medicaid,1168,2024-02-05,2024-02-12,7,3,COPD,Home,No,No
+169,55,Female,Private,1169,2024-01-19,2024-01-25,6,3,Infection,Skilled Nursing,Yes,No
+170,78,Female,Private,1170,2024-06-15,2024-06-19,4,1,Kidney Disease,Home Health,No,Yes
+171,43,Female,Medicaid,1171,2024-02-08,2024-02-15,7,2,Heart Failure,Skilled Nursing,Yes,Yes
+172,69,Female,Medicaid,1172,2024-05-20,2024-05-23,3,3,Heart Failure,Home Health,Yes,No
+173,82,Male,Medicare,1173,2024-05-27,2024-06-01,5,3,Diabetes,Home,Yes,Yes
+174,85,Male,Medicare,1174,2024-05-06,2024-05-08,2,2,Diabetes,Home Health,Yes,Yes
+175,25,Female,Private,1175,2024-05-10,2024-05-16,6,3,COPD,Home,Yes,Yes
+176,86,Female,Medicare,1176,2024-04-22,2024-04-24,2,3,COPD,Home Health,Yes,Yes
+177,57,Female,Private,1177,2024-06-14,2024-06-20,6,1,Heart Failure,Home Health,No,Yes
+178,82,Male,Medicare,1178,2024-02-13,2024-02-19,6,3,Diabetes,Skilled Nursing,No,Yes
+179,69,Female,Medicare,1179,2024-03-01,2024-03-09,8,0,Infection,Home Health,Yes,No
+180,60,Female,Medicaid,1180,2024-05-26,2024-05-31,5,0,Heart Failure,Home,No,Yes
+181,42,Female,Medicaid,1181,2024-02-16,2024-02-18,2,0,Diabetes,Home,No,No
+182,38,Female,Medicare,1182,2024-05-22,2024-05-30,8,0,Heart Failure,Skilled Nursing,No,No
+183,78,Female,Private,1183,2024-04-27,2024-05-01,4,3,COPD,Skilled Nursing,No,Yes
+184,81,Male,Medicare,1184,2024-01-12,2024-01-15,3,3,COPD,Skilled Nursing,Yes,No
+185,40,Male,Private,1185,2024-04-11,2024-04-16,5,3,Infection,Home,No,No
+186,52,Male,Medicaid,1186,2024-04-26,2024-05-05,9,1,Diabetes,Skilled Nursing,No,No
+187,60,Male,Private,1187,2024-03-30,2024-04-08,9,1,Kidney Disease,Home Health,No,No
+188,84,Male,Medicare,1188,2024-06-26,2024-07-01,5,3,Infection,Home Health,No,No
+189,65,Female,Medicaid,1189,2024-06-03,2024-06-10,7,2,COPD,Home,No,No
+190,41,Female,Medicare,1190,2024-06-09,2024-06-15,6,3,Infection,Home,No,Yes
+191,53,Female,Private,1191,2024-05-20,2024-05-27,7,2,Diabetes,Skilled Nursing,No,No
+192,30,Female,Private,1192,2024-03-22,2024-03-26,4,3,COPD,Home Health,Yes,Yes
+193,71,Female,Medicaid,1193,2024-06-01,2024-06-04,3,1,COPD,Skilled Nursing,Yes,Yes
+194,80,Female,Medicaid,1194,2024-01-30,2024-02-02,3,2,Diabetes,Skilled Nursing,No,Yes
+195,29,Male,Medicaid,1195,2024-04-28,2024-05-07,9,0,Diabetes,Home Health,Yes,No
+196,89,Male,Medicare,1196,2024-05-25,2024-06-03,9,2,Kidney Disease,Home,No,Yes
+197,73,Female,Medicare,1197,2024-01-11,2024-01-17,6,1,COPD,Home Health,Yes,No
+198,87,Female,Medicaid,1198,2024-03-26,2024-03-30,4,2,Diabetes,Home,No,Yes
+199,73,Female,Medicaid,1199,2024-06-09,2024-06-12,3,0,Diabetes,Home,No,Yes
+200,25,Female,Medicare,1200,2024-05-28,2024-06-06,9,2,Diabetes,Home,Yes,No
+201,30,Female,Medicare,1201,2024-04-04,2024-04-10,6,1,COPD,Skilled Nursing,Yes,No
+202,27,Male,Medicaid,1202,2024-01-23,2024-01-29,6,0,COPD,Home,Yes,No
+203,61,Male,Medicaid,1203,2024-03-23,2024-03-25,2,0,Kidney Disease,Home,Yes,No
+204,25,Male,Private,1204,2024-02-20,2024-02-26,6,0,COPD,Skilled Nursing,Yes,No
+205,28,Female,Medicaid,1205,2024-04-22,2024-05-01,9,3,COPD,Home,No,No
+206,58,Male,Private,1206,2024-04-01,2024-04-09,8,3,Heart Failure,Home,Yes,Yes
+207,63,Male,Private,1207,2024-06-02,2024-06-05,3,1,Heart Failure,Home,No,Yes
+208,78,Female,Medicare,1208,2024-04-27,2024-05-01,4,2,Heart Failure,Home Health,No,No
+209,74,Male,Medicare,1209,2024-01-12,2024-01-14,2,1,COPD,Skilled Nursing,Yes,No
+210,29,Female,Private,1210,2024-02-26,2024-02-28,2,3,Heart Failure,Home,No,No
+211,71,Female,Medicare,1211,2024-05-30,2024-06-07,8,0,Infection,Skilled Nursing,No,Yes
+212,38,Male,Private,1212,2024-03-06,2024-03-10,4,2,COPD,Home,Yes,Yes
+213,62,Female,Private,1213,2024-02-07,2024-02-10,3,1,Kidney Disease,Skilled Nursing,No,No
+214,54,Female,Private,1214,2024-03-19,2024-03-23,4,2,Infection,Home,Yes,No
+215,87,Male,Medicare,1215,2024-02-21,2024-02-23,2,1,COPD,Home Health,No,No
+216,54,Female,Private,1216,2024-04-15,2024-04-19,4,0,Heart Failure,Home Health,No,Yes
+217,29,Female,Private,1217,2024-01-29,2024-02-03,5,1,COPD,Skilled Nursing,No,Yes
+218,80,Male,Medicare,1218,2024-05-24,2024-05-27,3,0,Heart Failure,Skilled Nursing,No,No
+219,58,Male,Private,1219,2024-01-06,2024-01-12,6,1,Kidney Disease,Skilled Nursing,No,No
+220,67,Male,Medicare,1220,2024-04-24,2024-05-02,8,0,Infection,Skilled Nursing,Yes,No
+221,47,Female,Private,1221,2024-03-20,2024-03-28,8,2,Diabetes,Home,Yes,No
+222,40,Male,Private,1222,2024-01-08,2024-01-13,5,3,COPD,Home,No,No
+223,28,Female,Private,1223,2024-01-25,2024-01-29,4,3,Diabetes,Skilled Nursing,Yes,No
+224,51,Female,Medicaid,1224,2024-04-02,2024-04-11,9,1,Kidney Disease,Skilled Nursing,Yes,No
+225,85,Female,Medicare,1225,2024-05-01,2024-05-05,4,2,Diabetes,Skilled Nursing,No,No
+226,45,Female,Medicare,1226,2024-01-05,2024-01-08,3,3,COPD,Skilled Nursing,No,Yes
+227,66,Male,Medicare,1227,2024-03-01,2024-03-08,7,0,Kidney Disease,Home,No,No
+228,25,Female,Private,1228,2024-05-12,2024-05-14,2,3,COPD,Home Health,No,No
+229,70,Male,Private,1229,2024-02-03,2024-02-05,2,1,COPD,Home,Yes,No
+230,69,Male,Medicare,1230,2024-06-03,2024-06-05,2,1,Infection,Home Health,No,No
+231,71,Female,Medicare,1231,2024-04-30,2024-05-07,7,2,Kidney Disease,Home,No,Yes
+232,80,Female,Medicare,1232,2024-04-03,2024-04-07,4,2,Kidney Disease,Home Health,No,Yes
+233,72,Female,Medicaid,1233,2024-03-01,2024-03-03,2,1,Heart Failure,Home,Yes,Yes
+234,60,Male,Medicaid,1234,2024-01-01,2024-01-10,9,0,Diabetes,Home Health,No,No
+235,76,Male,Medicare,1235,2024-02-16,2024-02-24,8,3,Infection,Home,Yes,Yes
+236,38,Male,Private,1236,2024-01-28,2024-02-05,8,1,Diabetes,Home,No,No
+237,26,Male,Private,1237,2024-04-18,2024-04-21,3,1,Infection,Home,No,No
+238,83,Female,Medicare,1238,2024-02-25,2024-02-29,4,2,Infection,Home Health,Yes,Yes
+239,27,Female,Private,1239,2024-04-20,2024-04-28,8,1,Kidney Disease,Home Health,No,No
+240,42,Male,Private,1240,2024-02-07,2024-02-11,4,2,Heart Failure,Home,No,Yes
+241,39,Male,Private,1241,2024-04-28,2024-05-04,6,3,Diabetes,Skilled Nursing,No,Yes
+242,63,Male,Medicare,1242,2024-01-17,2024-01-25,8,1,Heart Failure,Skilled Nursing,Yes,No
+243,68,Female,Medicare,1243,2024-01-25,2024-01-27,2,0,COPD,Home,Yes,No
+244,49,Male,Private,1244,2024-03-08,2024-03-11,3,2,COPD,Skilled Nursing,Yes,No
+245,42,Male,Private,1245,2024-04-20,2024-04-25,5,2,Infection,Home Health,No,Yes
+246,58,Female,Medicaid,1246,2024-04-20,2024-04-29,9,3,Diabetes,Home,No,Yes
+247,66,Female,Medicare,1247,2024-06-17,2024-06-23,6,1,Diabetes,Skilled Nursing,Yes,No
+248,76,Female,Medicare,1248,2024-01-26,2024-02-04,9,1,Diabetes,Home Health,No,Yes
+249,83,Female,Private,1249,2024-02-28,2024-03-05,6,1,Heart Failure,Skilled Nursing,Yes,Yes
+250,57,Female,Private,1250,2024-05-29,2024-06-04,6,1,Kidney Disease,Skilled Nursing,Yes,No
+251,28,Female,Medicaid,1251,2024-04-03,2024-04-07,4,1,Kidney Disease,Skilled Nursing,Yes,No
+252,86,Female,Medicare,1252,2024-04-03,2024-04-11,8,3,Kidney Disease,Home,Yes,Yes
+253,79,Female,Medicaid,1253,2024-05-16,2024-05-24,8,2,Heart Failure,Skilled Nursing,Yes,Yes
+254,55,Female,Medicaid,1254,2024-02-09,2024-02-15,6,3,Kidney Disease,Skilled Nursing,Yes,No
+255,48,Female,Private,1255,2024-01-06,2024-01-09,3,3,Diabetes,Home Health,No,No
+256,28,Male,Medicaid,1256,2024-03-19,2024-03-26,7,1,Diabetes,Home,No,No
+257,75,Male,Medicare,1257,2024-03-02,2024-03-04,2,1,Infection,Home Health,No,No
+258,32,Male,Private,1258,2024-01-26,2024-01-30,4,0,Kidney Disease,Skilled Nursing,Yes,No
+259,68,Female,Medicare,1259,2024-05-12,2024-05-19,7,1,Infection,Home,Yes,No
+260,43,Female,Private,1260,2024-01-20,2024-01-22,2,3,Diabetes,Home,Yes,No
+261,71,Female,Medicare,1261,2024-01-01,2024-01-04,3,1,Heart Failure,Home Health,No,Yes
+262,88,Male,Medicare,1262,2024-02-07,2024-02-13,6,1,Infection,Home,Yes,No
+263,35,Male,Private,1263,2024-04-09,2024-04-15,6,2,Diabetes,Home,Yes,No
+264,27,Female,Medicaid,1264,2024-06-09,2024-06-16,7,1,Kidney Disease,Home,No,No
+265,34,Male,Private,1265,2024-01-05,2024-01-13,8,1,Kidney Disease,Home,No,No
+266,68,Male,Medicare,1266,2024-05-09,2024-05-15,6,3,COPD,Home Health,No,No
+267,26,Female,Private,1267,2024-03-24,2024-03-26,2,2,COPD,Home Health,No,No
+268,41,Male,Private,1268,2024-01-09,2024-01-13,4,2,Kidney Disease,Home Health,No,No
+269,48,Female,Private,1269,2024-02-07,2024-02-15,8,2,Infection,Home,Yes,No
+270,73,Male,Private,1270,2024-03-09,2024-03-16,7,3,Heart Failure,Skilled Nursing,No,No
+271,74,Male,Private,1271,2024-03-18,2024-03-24,6,3,Kidney Disease,Home,No,Yes
+272,33,Male,Private,1272,2024-06-10,2024-06-15,5,2,Kidney Disease,Home,No,Yes
+273,59,Male,Medicaid,1273,2024-01-01,2024-01-10,9,3,Diabetes,Home,No,Yes
+274,46,Female,Private,1274,2024-02-29,2024-03-09,9,0,Heart Failure,Home Health,Yes,No
+275,35,Male,Private,1275,2024-04-14,2024-04-20,6,1,Heart Failure,Skilled Nursing,No,No
+276,84,Male,Medicare,1276,2024-01-30,2024-02-03,4,0,Infection,Skilled Nursing,Yes,No
+277,61,Female,Private,1277,2024-01-05,2024-01-09,4,2,Heart Failure,Home,Yes,Yes
+278,50,Male,Private,1278,2024-03-02,2024-03-07,5,0,Kidney Disease,Skilled Nursing,No,No
+279,66,Male,Private,1279,2024-03-29,2024-04-01,3,3,COPD,Home Health,Yes,Yes
+280,63,Female,Private,1280,2024-04-13,2024-04-20,7,3,Kidney Disease,Home Health,Yes,No
+281,75,Male,Private,1281,2024-05-04,2024-05-11,7,0,Infection,Skilled Nursing,Yes,No
+282,47,Male,Medicaid,1282,2024-03-03,2024-03-11,8,0,Diabetes,Home Health,Yes,No
+283,49,Female,Private,1283,2024-05-24,2024-05-26,2,2,Infection,Home,Yes,No
+284,77,Female,Medicare,1284,2024-04-13,2024-04-22,9,2,Kidney Disease,Skilled Nursing,Yes,Yes
+285,63,Female,Medicare,1285,2024-06-27,2024-07-04,7,1,Infection,Home Health,No,No
+286,31,Male,Private,1286,2024-06-27,2024-07-06,9,1,Heart Failure,Home Health,Yes,No
+287,88,Male,Private,1287,2024-01-15,2024-01-23,8,0,Diabetes,Home,Yes,No
+288,57,Female,Private,1288,2024-06-03,2024-06-08,5,0,COPD,Skilled Nursing,No,No
+289,62,Female,Private,1289,2024-04-06,2024-04-12,6,0,COPD,Home,No,Yes
+290,51,Male,Medicare,1290,2024-02-02,2024-02-09,7,3,COPD,Home,No,No
+291,34,Female,Medicaid,1291,2024-01-05,2024-01-09,4,1,Kidney Disease,Home Health,No,No
+292,62,Male,Medicaid,1292,2024-05-20,2024-05-28,8,2,COPD,Home Health,No,No
+293,76,Male,Private,1293,2024-01-15,2024-01-21,6,3,Diabetes,Home Health,Yes,No
+294,29,Female,Medicaid,1294,2024-06-05,2024-06-13,8,3,Infection,Home Health,No,No
+295,69,Female,Medicare,1295,2024-05-09,2024-05-13,4,2,Diabetes,Skilled Nursing,No,No
+296,60,Female,Medicare,1296,2024-02-05,2024-02-08,3,2,Kidney Disease,Home,No,Yes
+297,51,Male,Private,1297,2024-03-09,2024-03-14,5,2,Diabetes,Home Health,No,Yes
+298,62,Female,Private,1298,2024-05-13,2024-05-22,9,2,Infection,Home Health,No,Yes
+299,71,Female,Medicare,1299,2024-03-30,2024-04-06,7,2,Infection,Home Health,Yes,Yes
+300,36,Female,Private,1300,2024-05-20,2024-05-29,9,1,COPD,Home,Yes,No
+301,84,Female,Medicare,1301,2024-06-19,2024-06-24,5,3,Heart Failure,Home,No,Yes
+302,29,Male,Private,1302,2024-04-29,2024-05-05,6,3,Infection,Home Health,No,Yes
+303,55,Male,Private,1303,2024-05-01,2024-05-03,2,1,Kidney Disease,Home Health,No,No
+304,75,Female,Medicare,1304,2024-01-29,2024-02-05,7,3,COPD,Home,Yes,No
+305,65,Female,Medicare,1305,2024-01-11,2024-01-19,8,0,Kidney Disease,Home,No,No
+306,70,Female,Private,1306,2024-04-10,2024-04-16,6,1,COPD,Skilled Nursing,No,Yes
+307,60,Female,Private,1307,2024-02-26,2024-02-28,2,2,COPD,Home,No,Yes
+308,78,Female,Medicaid,1308,2024-02-24,2024-02-28,4,3,Diabetes,Skilled Nursing,No,No
+309,39,Female,Medicaid,1309,2024-05-28,2024-06-05,8,0,COPD,Skilled Nursing,Yes,No
+310,77,Female,Medicare,1310,2024-05-16,2024-05-19,3,3,Heart Failure,Home,Yes,Yes
+311,81,Female,Medicare,1311,2024-04-26,2024-04-29,3,0,Kidney Disease,Skilled Nursing,No,Yes
+312,59,Male,Private,1312,2024-03-03,2024-03-08,5,0,Heart Failure,Home,No,Yes
+313,62,Female,Private,1313,2024-05-09,2024-05-17,8,1,Infection,Skilled Nursing,Yes,No
+314,58,Male,Medicaid,1314,2024-03-31,2024-04-02,2,3,Heart Failure,Home Health,No,Yes
+315,67,Female,Medicare,1315,2024-04-17,2024-04-21,4,2,Kidney Disease,Skilled Nursing,Yes,No
+316,78,Male,Medicare,1316,2024-05-31,2024-06-02,2,2,Heart Failure,Home,Yes,Yes
+317,76,Male,Medicare,1317,2024-03-28,2024-03-30,2,0,COPD,Home Health,No,No
+318,53,Female,Private,1318,2024-03-03,2024-03-07,4,1,Kidney Disease,Home Health,Yes,No
+319,50,Female,Private,1319,2024-06-04,2024-06-07,3,0,Heart Failure,Skilled Nursing,Yes,No
+320,73,Male,Medicare,1320,2024-03-21,2024-03-26,5,0,Kidney Disease,Skilled Nursing,No,No
+321,73,Male,Private,1321,2024-05-27,2024-06-03,7,1,Heart Failure,Home,Yes,No
+322,87,Female,Medicare,1322,2024-04-13,2024-04-15,2,2,Kidney Disease,Home Health,Yes,Yes
+323,25,Female,Private,1323,2024-05-20,2024-05-27,7,2,Diabetes,Home Health,Yes,No
+324,75,Female,Medicare,1324,2024-05-02,2024-05-11,9,2,Heart Failure,Skilled Nursing,Yes,Yes
+325,86,Female,Medicare,1325,2024-02-01,2024-02-08,7,0,COPD,Home Health,Yes,Yes
+326,73,Female,Private,1326,2024-06-21,2024-06-27,6,1,Diabetes,Home Health,Yes,No
+327,40,Female,Private,1327,2024-06-16,2024-06-20,4,1,Heart Failure,Home Health,Yes,No
+328,25,Female,Private,1328,2024-03-18,2024-03-22,4,2,Infection,Home,Yes,No
+329,62,Male,Medicare,1329,2024-06-27,2024-07-05,8,3,Infection,Skilled Nursing,No,Yes
+330,25,Male,Medicaid,1330,2024-01-08,2024-01-14,6,2,Kidney Disease,Skilled Nursing,No,Yes
+331,27,Male,Private,1331,2024-02-01,2024-02-04,3,1,Kidney Disease,Home Health,No,No
+332,58,Female,Private,1332,2024-05-03,2024-05-05,2,2,Heart Failure,Home Health,No,No
+333,79,Male,Medicare,1333,2024-02-01,2024-02-04,3,2,Heart Failure,Home,No,Yes
+334,32,Female,Private,1334,2024-03-05,2024-03-07,2,2,Heart Failure,Home,No,Yes
+335,83,Female,Private,1335,2024-03-12,2024-03-19,7,0,Infection,Home Health,Yes,No
+336,75,Female,Medicare,1336,2024-04-06,2024-04-11,5,2,Kidney Disease,Home,No,Yes
+337,32,Male,Private,1337,2024-06-10,2024-06-14,4,3,Infection,Skilled Nursing,No,No
+338,56,Male,Private,1338,2024-04-29,2024-05-06,7,2,Heart Failure,Home Health,No,No
+339,40,Female,Private,1339,2024-06-13,2024-06-20,7,0,Diabetes,Home,Yes,No
+340,38,Female,Private,1340,2024-02-24,2024-03-04,9,1,Heart Failure,Home,Yes,No
+341,31,Female,Medicaid,1341,2024-03-14,2024-03-22,8,0,Kidney Disease,Home Health,Yes,No
+342,47,Male,Private,1342,2024-03-25,2024-03-29,4,3,Kidney Disease,Home Health,Yes,No
+343,43,Female,Medicaid,1343,2024-02-05,2024-02-11,6,3,Diabetes,Skilled Nursing,No,Yes
+344,26,Female,Medicaid,1344,2024-05-08,2024-05-16,8,0,Diabetes,Home Health,Yes,No
+345,44,Female,Private,1345,2024-01-11,2024-01-14,3,2,Heart Failure,Home Health,No,No
+346,26,Male,Private,1346,2024-04-28,2024-05-03,5,3,Diabetes,Skilled Nursing,Yes,No
+347,29,Male,Private,1347,2024-02-06,2024-02-13,7,3,COPD,Skilled Nursing,No,Yes
+348,33,Male,Medicare,1348,2024-02-22,2024-02-27,5,2,Heart Failure,Home,Yes,Yes
+349,48,Female,Private,1349,2024-03-21,2024-03-24,3,1,COPD,Home Health,No,No
+350,83,Male,Private,1350,2024-05-07,2024-05-16,9,0,Kidney Disease,Home,No,No
+351,38,Female,Private,1351,2024-01-09,2024-01-18,9,1,Diabetes,Home,No,No
+352,49,Female,Private,1352,2024-04-12,2024-04-14,2,1,Diabetes,Skilled Nursing,No,No
+353,46,Male,Medicaid,1353,2024-01-04,2024-01-07,3,1,Diabetes,Skilled Nursing,No,No
+354,53,Male,Medicaid,1354,2024-04-18,2024-04-21,3,2,Diabetes,Home Health,Yes,No
+355,61,Female,Private,1355,2024-03-15,2024-03-22,7,1,Diabetes,Skilled Nursing,No,No
+356,66,Female,Medicare,1356,2024-04-09,2024-04-11,2,1,Kidney Disease,Home Health,No,No
+357,58,Female,Medicaid,1357,2024-01-17,2024-01-23,6,0,COPD,Home Health,Yes,No
+358,51,Female,Medicaid,1358,2024-02-26,2024-03-05,8,1,Heart Failure,Home Health,No,Yes
+359,64,Female,Private,1359,2024-04-07,2024-04-12,5,0,Kidney Disease,Home Health,No,No
+360,77,Male,Medicare,1360,2024-05-17,2024-05-23,6,0,Kidney Disease,Home,Yes,No
+361,50,Male,Private,1361,2024-05-01,2024-05-08,7,3,Kidney Disease,Home,Yes,No
+362,26,Male,Private,1362,2024-02-23,2024-02-27,4,0,Diabetes,Skilled Nursing,No,No
+363,75,Male,Medicare,1363,2024-02-05,2024-02-09,4,1,COPD,Home,Yes,Yes
+364,53,Female,Private,1364,2024-05-28,2024-06-01,4,3,COPD,Home Health,No,Yes
+365,35,Male,Medicaid,1365,2024-06-12,2024-06-14,2,2,Heart Failure,Skilled Nursing,Yes,Yes
+366,63,Male,Medicaid,1366,2024-02-23,2024-02-26,3,2,COPD,Home Health,Yes,No
+367,48,Male,Medicaid,1367,2024-05-29,2024-06-04,6,3,Infection,Home Health,Yes,No
+368,57,Female,Medicaid,1368,2024-02-05,2024-02-13,8,3,Heart Failure,Home Health,Yes,No
+369,86,Female,Medicare,1369,2024-04-18,2024-04-22,4,1,Kidney Disease,Skilled Nursing,No,No
+370,50,Male,Medicaid,1370,2024-03-13,2024-03-15,2,3,Infection,Home Health,Yes,No
+371,41,Male,Private,1371,2024-05-08,2024-05-10,2,0,Infection,Skilled Nursing,No,No
+372,67,Male,Medicare,1372,2024-04-13,2024-04-16,3,0,Diabetes,Home Health,Yes,No
+373,63,Male,Private,1373,2024-02-04,2024-02-08,4,1,Infection,Home Health,No,No
+374,68,Male,Medicare,1374,2024-06-27,2024-07-04,7,1,Heart Failure,Home,Yes,No
+375,36,Female,Private,1375,2024-01-19,2024-01-25,6,3,COPD,Home,No,Yes
+376,83,Female,Private,1376,2024-02-18,2024-02-24,6,0,Diabetes,Home Health,Yes,No
+377,81,Female,Medicare,1377,2024-02-24,2024-02-26,2,2,COPD,Home,Yes,Yes
+378,36,Male,Private,1378,2024-03-02,2024-03-11,9,3,Kidney Disease,Skilled Nursing,No,Yes
+379,32,Female,Private,1379,2024-05-28,2024-05-30,2,2,COPD,Home,Yes,Yes
+380,49,Female,Medicaid,1380,2024-03-29,2024-04-03,5,2,Kidney Disease,Home Health,No,No
+381,83,Female,Private,1381,2024-06-02,2024-06-04,2,0,COPD,Home,Yes,Yes
+382,50,Female,Medicare,1382,2024-02-16,2024-02-25,9,1,Kidney Disease,Home,Yes,No
+383,40,Male,Private,1383,2024-05-24,2024-06-01,8,1,COPD,Home,No,No
+384,31,Female,Private,1384,2024-01-14,2024-01-22,8,0,COPD,Skilled Nursing,No,Yes
+385,31,Female,Medicaid,1385,2024-05-16,2024-05-20,4,3,Infection,Home,No,Yes
+386,83,Male,Medicare,1386,2024-03-22,2024-03-30,8,1,Diabetes,Skilled Nursing,Yes,No
+387,63,Female,Private,1387,2024-05-25,2024-05-29,4,1,Heart Failure,Skilled Nursing,Yes,No
+388,41,Male,Medicare,1388,2024-01-14,2024-01-22,8,3,Diabetes,Skilled Nursing,Yes,No
+389,84,Male,Medicaid,1389,2024-02-14,2024-02-17,3,2,Heart Failure,Home Health,Yes,Yes
+390,61,Male,Medicaid,1390,2024-06-19,2024-06-28,9,1,Infection,Home Health,No,No
+391,79,Female,Private,1391,2024-04-17,2024-04-25,8,2,Infection,Home Health,Yes,Yes
+392,28,Male,Private,1392,2024-04-02,2024-04-09,7,0,Diabetes,Home,Yes,No
+393,37,Female,Private,1393,2024-06-09,2024-06-18,9,0,COPD,Home,Yes,No
+394,66,Female,Medicare,1394,2024-04-17,2024-04-24,7,1,Kidney Disease,Home Health,No,No
+395,79,Male,Medicare,1395,2024-06-18,2024-06-21,3,1,Diabetes,Home,No,Yes
+396,37,Male,Medicare,1396,2024-05-20,2024-05-23,3,3,Infection,Skilled Nursing,Yes,No
+397,63,Male,Private,1397,2024-02-15,2024-02-20,5,0,Heart Failure,Skilled Nursing,Yes,No
+398,86,Female,Medicare,1398,2024-03-02,2024-03-08,6,3,Heart Failure,Home,Yes,Yes
+399,81,Male,Medicare,1399,2024-01-16,2024-01-25,9,3,Heart Failure,Home,No,Yes
+400,34,Female,Private,1400,2024-06-06,2024-06-08,2,2,Diabetes,Home,No,No
+401,29,Male,Private,1401,2024-03-05,2024-03-12,7,0,Diabetes,Home,Yes,No
+402,27,Female,Private,1402,2024-06-21,2024-06-28,7,3,Heart Failure,Home Health,No,No
+403,54,Female,Private,1403,2024-03-08,2024-03-11,3,1,Infection,Home,No,No
+404,61,Female,Private,1404,2024-06-01,2024-06-10,9,0,Kidney Disease,Home Health,Yes,No
+405,77,Male,Medicare,1405,2024-03-13,2024-03-21,8,0,COPD,Home Health,Yes,Yes
+406,36,Female,Private,1406,2024-02-06,2024-02-12,6,0,COPD,Home Health,Yes,No
+407,67,Female,Medicare,1407,2024-05-03,2024-05-10,7,2,Heart Failure,Home Health,No,Yes
+408,80,Male,Medicare,1408,2024-03-03,2024-03-10,7,3,Infection,Skilled Nursing,Yes,No
+409,35,Male,Medicaid,1409,2024-03-02,2024-03-08,6,1,Kidney Disease,Skilled Nursing,Yes,No
+410,49,Female,Private,1410,2024-02-21,2024-02-26,5,2,Diabetes,Home Health,Yes,No
+411,44,Male,Medicaid,1411,2024-04-02,2024-04-10,8,1,Heart Failure,Skilled Nursing,No,No
+412,81,Male,Medicare,1412,2024-06-17,2024-06-19,2,1,COPD,Skilled Nursing,No,No
+413,27,Female,Private,1413,2024-04-29,2024-05-06,7,0,Diabetes,Home Health,No,No
+414,29,Female,Private,1414,2024-02-23,2024-03-02,8,2,Infection,Home Health,Yes,No
+415,73,Female,Private,1415,2024-01-09,2024-01-13,4,3,Diabetes,Home,No,Yes
+416,85,Male,Medicare,1416,2024-05-02,2024-05-05,3,2,COPD,Skilled Nursing,Yes,Yes
+417,74,Female,Medicare,1417,2024-03-22,2024-03-29,7,0,COPD,Home Health,Yes,Yes
+418,27,Male,Private,1418,2024-06-08,2024-06-12,4,1,Diabetes,Home Health,No,No
+419,37,Female,Private,1419,2024-04-29,2024-05-05,6,2,Diabetes,Home,Yes,No
+420,38,Female,Private,1420,2024-04-10,2024-04-13,3,2,Kidney Disease,Skilled Nursing,Yes,No
+421,80,Male,Private,1421,2024-03-07,2024-03-11,4,3,Heart Failure,Skilled Nursing,Yes,No
+422,53,Female,Private,1422,2024-05-16,2024-05-20,4,0,COPD,Home,Yes,No
+423,66,Male,Medicare,1423,2024-01-09,2024-01-17,8,3,Infection,Home Health,Yes,No
+424,49,Female,Private,1424,2024-01-05,2024-01-09,4,2,Heart Failure,Home,No,Yes
+425,62,Female,Private,1425,2024-03-12,2024-03-16,4,0,Diabetes,Home,No,No
+426,72,Male,Medicare,1426,2024-03-30,2024-04-02,3,1,Heart Failure,Skilled Nursing,Yes,Yes
+427,61,Female,Medicaid,1427,2024-02-29,2024-03-09,9,0,Diabetes,Home Health,Yes,No
+428,52,Female,Medicaid,1428,2024-03-21,2024-03-24,3,3,Infection,Skilled Nursing,Yes,No
+429,69,Male,Medicare,1429,2024-03-02,2024-03-08,6,2,Heart Failure,Skilled Nursing,Yes,Yes
+430,82,Female,Medicare,1430,2024-03-07,2024-03-16,9,3,Infection,Home,Yes,No
+431,64,Male,Private,1431,2024-03-31,2024-04-06,6,0,Infection,Skilled Nursing,No,No
+432,57,Male,Medicaid,1432,2024-01-06,2024-01-15,9,2,Heart Failure,Home,Yes,No
+433,64,Female,Private,1433,2024-04-01,2024-04-03,2,2,Heart Failure,Skilled Nursing,No,No
+434,83,Male,Medicare,1434,2024-02-17,2024-02-19,2,0,Diabetes,Home,Yes,No
+435,69,Male,Private,1435,2024-03-29,2024-04-04,6,1,Infection,Home,No,No
+436,87,Male,Medicare,1436,2024-06-03,2024-06-10,7,3,Kidney Disease,Home Health,No,Yes
+437,31,Male,Medicaid,1437,2024-05-12,2024-05-16,4,0,Heart Failure,Skilled Nursing,No,Yes
+438,82,Female,Medicare,1438,2024-01-31,2024-02-08,8,1,Heart Failure,Home Health,No,No
+439,34,Female,Medicare,1439,2024-06-08,2024-06-12,4,0,Diabetes,Home Health,No,No
+440,54,Male,Private,1440,2024-02-08,2024-02-16,8,1,Infection,Home Health,Yes,No
+441,26,Female,Medicare,1441,2024-03-17,2024-03-23,6,3,Kidney Disease,Home Health,Yes,No
+442,63,Male,Medicare,1442,2024-01-13,2024-01-20,7,2,COPD,Home Health,Yes,No
+443,41,Female,Private,1443,2024-04-13,2024-04-21,8,1,Heart Failure,Home,No,Yes
+444,84,Female,Medicare,1444,2024-03-28,2024-04-03,6,2,Heart Failure,Home,No,Yes
+445,54,Female,Private,1445,2024-03-14,2024-03-16,2,3,Heart Failure,Home Health,Yes,Yes
+446,87,Female,Private,1446,2024-06-04,2024-06-09,5,2,Heart Failure,Home Health,No,Yes
+447,61,Male,Medicaid,1447,2024-01-22,2024-01-27,5,3,Kidney Disease,Home,Yes,No
+448,88,Female,Medicare,1448,2024-01-17,2024-01-22,5,1,Diabetes,Home Health,No,Yes
+449,41,Male,Private,1449,2024-05-17,2024-05-24,7,0,Diabetes,Home Health,No,No
+450,46,Female,Medicaid,1450,2024-04-29,2024-05-03,4,1,Diabetes,Home Health,Yes,No
+451,74,Female,Medicare,1451,2024-01-14,2024-01-23,9,2,COPD,Home Health,Yes,Yes
+452,53,Male,Medicaid,1452,2024-06-12,2024-06-16,4,2,Diabetes,Skilled Nursing,No,No
+453,76,Female,Medicare,1453,2024-05-04,2024-05-09,5,2,Infection,Skilled Nursing,Yes,Yes
+454,53,Male,Private,1454,2024-05-18,2024-05-20,2,1,COPD,Home Health,No,Yes
+455,56,Female,Medicaid,1455,2024-06-27,2024-07-01,4,1,COPD,Home Health,No,Yes
+456,50,Female,Private,1456,2024-06-22,2024-06-25,3,0,Kidney Disease,Home,Yes,No
+457,28,Male,Medicaid,1457,2024-04-08,2024-04-14,6,0,Infection,Skilled Nursing,Yes,No
+458,63,Female,Medicaid,1458,2024-01-15,2024-01-23,8,0,Heart Failure,Home Health,No,Yes
+459,53,Female,Private,1459,2024-03-15,2024-03-20,5,3,COPD,Skilled Nursing,No,No
+460,26,Male,Private,1460,2024-06-23,2024-06-30,7,3,Kidney Disease,Home Health,No,Yes
+461,46,Female,Private,1461,2024-01-27,2024-01-31,4,0,Diabetes,Skilled Nursing,Yes,No
+462,80,Male,Private,1462,2024-04-01,2024-04-07,6,0,Diabetes,Home,Yes,No
+463,71,Female,Medicaid,1463,2024-04-10,2024-04-14,4,3,Diabetes,Home Health,Yes,Yes
+464,30,Female,Private,1464,2024-05-26,2024-05-28,2,0,Kidney Disease,Skilled Nursing,Yes,No
+465,27,Female,Private,1465,2024-01-01,2024-01-04,3,3,Infection,Skilled Nursing,Yes,No
+466,62,Female,Medicaid,1466,2024-01-15,2024-01-18,3,0,Infection,Home,No,No
+467,59,Female,Medicaid,1467,2024-03-04,2024-03-06,2,0,Heart Failure,Home,Yes,No
+468,48,Female,Private,1468,2024-01-12,2024-01-15,3,2,Infection,Home,No,Yes
+469,51,Male,Private,1469,2024-03-12,2024-03-17,5,1,Infection,Home Health,Yes,No
+470,41,Female,Medicare,1470,2024-04-02,2024-04-08,6,3,Heart Failure,Home,No,Yes
+471,51,Male,Medicaid,1471,2024-06-22,2024-06-25,3,3,COPD,Skilled Nursing,Yes,Yes
+472,27,Female,Private,1472,2024-04-02,2024-04-11,9,3,Infection,Home,No,Yes
+473,77,Male,Medicare,1473,2024-01-24,2024-01-29,5,1,Infection,Home Health,Yes,No
+474,27,Male,Private,1474,2024-05-27,2024-06-03,7,2,Infection,Home Health,Yes,No
+475,49,Male,Private,1475,2024-01-17,2024-01-24,7,3,Heart Failure,Skilled Nursing,Yes,No
+476,33,Male,Private,1476,2024-06-14,2024-06-23,9,0,COPD,Home Health,Yes,No
+477,84,Female,Medicare,1477,2024-03-03,2024-03-10,7,1,Infection,Skilled Nursing,No,Yes
+478,26,Female,Private,1478,2024-03-28,2024-04-06,9,2,Diabetes,Home Health,No,Yes
+479,88,Female,Medicaid,1479,2024-03-12,2024-03-18,6,1,Kidney Disease,Home,Yes,No
+480,88,Female,Medicare,1480,2024-03-22,2024-03-29,7,2,Diabetes,Home,Yes,Yes
+481,62,Male,Private,1481,2024-02-01,2024-02-05,4,0,Infection,Skilled Nursing,Yes,No
+482,57,Female,Private,1482,2024-04-11,2024-04-13,2,3,Infection,Skilled Nursing,Yes,No
+483,35,Male,Private,1483,2024-06-27,2024-07-06,9,0,COPD,Home,No,No
+484,41,Male,Medicaid,1484,2024-03-16,2024-03-18,2,1,Heart Failure,Home Health,Yes,No
+485,56,Male,Medicaid,1485,2024-03-20,2024-03-27,7,1,Kidney Disease,Skilled Nursing,No,No
+486,44,Female,Private,1486,2024-06-09,2024-06-12,3,3,Infection,Skilled Nursing,No,Yes
+487,56,Male,Private,1487,2024-04-06,2024-04-09,3,0,COPD,Home Health,Yes,No
+488,57,Female,Private,1488,2024-06-06,2024-06-08,2,0,Diabetes,Home,No,No
+489,50,Female,Private,1489,2024-05-29,2024-06-06,8,1,Heart Failure,Skilled Nursing,Yes,No
+490,62,Female,Medicaid,1490,2024-04-12,2024-04-15,3,1,Diabetes,Skilled Nursing,Yes,No
+491,39,Female,Private,1491,2024-04-15,2024-04-23,8,3,Infection,Home,Yes,No
+492,73,Female,Private,1492,2024-04-13,2024-04-17,4,0,Heart Failure,Home Health,No,Yes
+493,30,Male,Private,1493,2024-01-09,2024-01-16,7,0,Heart Failure,Home,Yes,No
+494,56,Female,Medicaid,1494,2024-02-10,2024-02-13,3,3,Kidney Disease,Skilled Nursing,No,Yes
+495,32,Male,Medicaid,1495,2024-03-12,2024-03-15,3,3,COPD,Home,No,Yes
+496,86,Male,Medicare,1496,2024-03-24,2024-03-31,7,2,Diabetes,Home Health,No,No
+497,31,Male,Private,1497,2024-03-24,2024-04-02,9,3,Infection,Home,No,No
+498,30,Male,Medicaid,1498,2024-02-27,2024-03-05,7,1,COPD,Home,Yes,No
+499,27,Female,Medicaid,1499,2024-05-06,2024-05-08,2,3,Infection,Home Health,Yes,No
+500,38,Female,Private,1500,2024-01-12,2024-01-20,8,3,Infection,Home Health,Yes,No
+501,37,Male,Private,1501,2024-01-25,2024-01-31,6,2,Diabetes,Skilled Nursing,No,Yes
+502,43,Female,Private,1502,2024-02-24,2024-03-02,7,3,Heart Failure,Skilled Nursing,Yes,No
+503,69,Female,Medicare,1503,2024-05-15,2024-05-21,6,2,Diabetes,Home,No,Yes
+504,77,Female,Private,1504,2024-02-01,2024-02-05,4,3,Infection,Home Health,No,No
+505,42,Female,Private,1505,2024-05-29,2024-06-04,6,3,COPD,Skilled Nursing,No,No
+506,80,Male,Medicare,1506,2024-04-14,2024-04-18,4,2,Infection,Home,Yes,No
+507,52,Male,Private,1507,2024-02-04,2024-02-10,6,0,Heart Failure,Home Health,Yes,No
+508,78,Male,Private,1508,2024-04-06,2024-04-14,8,3,Diabetes,Home,No,Yes
+509,73,Female,Medicare,1509,2024-04-03,2024-04-09,6,2,Diabetes,Skilled Nursing,Yes,Yes
+510,82,Female,Private,1510,2024-01-24,2024-01-29,5,0,COPD,Home Health,Yes,No
+511,28,Male,Private,1511,2024-04-17,2024-04-24,7,3,Heart Failure,Home,Yes,Yes
+512,84,Female,Medicare,1512,2024-05-31,2024-06-03,3,0,Diabetes,Home,No,Yes
+513,75,Female,Medicare,1513,2024-04-05,2024-04-07,2,3,Infection,Home,Yes,Yes
+514,58,Female,Medicaid,1514,2024-06-12,2024-06-19,7,2,COPD,Home Health,Yes,Yes
+515,66,Male,Medicare,1515,2024-04-24,2024-04-27,3,1,Kidney Disease,Home,Yes,No
+516,36,Female,Private,1516,2024-05-10,2024-05-16,6,1,COPD,Skilled Nursing,Yes,No
+517,64,Female,Private,1517,2024-01-21,2024-01-29,8,0,Infection,Home,Yes,No
+518,50,Male,Private,1518,2024-01-08,2024-01-13,5,3,Heart Failure,Skilled Nursing,No,Yes
+519,66,Female,Medicare,1519,2024-06-20,2024-06-27,7,1,COPD,Home,No,Yes
+520,26,Male,Private,1520,2024-04-28,2024-05-04,6,0,Kidney Disease,Skilled Nursing,No,No
+521,62,Male,Medicaid,1521,2024-02-10,2024-02-17,7,1,Diabetes,Home,Yes,No
+522,84,Female,Medicare,1522,2024-05-04,2024-05-12,8,1,Heart Failure,Home,No,Yes
+523,26,Male,Private,1523,2024-03-10,2024-03-12,2,2,Kidney Disease,Home,Yes,No
+524,52,Female,Medicaid,1524,2024-03-06,2024-03-10,4,0,COPD,Home Health,No,Yes
+525,29,Male,Medicaid,1525,2024-06-16,2024-06-21,5,3,Heart Failure,Home,Yes,Yes
+526,60,Male,Medicare,1526,2024-02-14,2024-02-22,8,2,Heart Failure,Home Health,No,Yes
+527,55,Female,Private,1527,2024-05-18,2024-05-21,3,2,Infection,Home,Yes,No
+528,38,Female,Medicare,1528,2024-03-20,2024-03-23,3,0,Heart Failure,Skilled Nursing,Yes,No
+529,34,Male,Private,1529,2024-03-16,2024-03-23,7,0,Infection,Skilled Nursing,Yes,No
+530,25,Female,Private,1530,2024-05-12,2024-05-17,5,3,COPD,Home,Yes,Yes
+531,67,Female,Medicare,1531,2024-01-01,2024-01-03,2,3,Kidney Disease,Skilled Nursing,Yes,No
+532,52,Female,Private,1532,2024-04-30,2024-05-04,4,0,COPD,Home,Yes,No
+533,71,Male,Private,1533,2024-06-13,2024-06-15,2,0,COPD,Home Health,No,Yes
+534,68,Female,Medicare,1534,2024-02-25,2024-03-01,5,2,COPD,Skilled Nursing,No,No
+535,30,Male,Medicaid,1535,2024-04-17,2024-04-21,4,0,Heart Failure,Home Health,No,Yes
+536,44,Male,Private,1536,2024-04-23,2024-04-30,7,1,Kidney Disease,Skilled Nursing,Yes,No
+537,61,Female,Private,1537,2024-01-20,2024-01-23,3,0,Diabetes,Home,No,No
+538,25,Male,Private,1538,2024-04-28,2024-05-02,4,1,Diabetes,Home,Yes,No
+539,83,Male,Private,1539,2024-03-09,2024-03-11,2,0,Heart Failure,Home,Yes,Yes
+540,75,Female,Medicare,1540,2024-01-12,2024-01-15,3,3,COPD,Home,Yes,Yes
+541,77,Female,Medicare,1541,2024-02-12,2024-02-19,7,1,COPD,Home Health,No,Yes
+542,74,Male,Medicare,1542,2024-01-29,2024-01-31,2,2,Heart Failure,Skilled Nursing,Yes,Yes
+543,80,Male,Medicaid,1543,2024-06-19,2024-06-22,3,2,Heart Failure,Home Health,No,No
+544,68,Female,Medicare,1544,2024-02-07,2024-02-12,5,2,Kidney Disease,Home Health,Yes,No
+545,69,Female,Medicare,1545,2024-02-21,2024-03-01,9,1,Kidney Disease,Home Health,Yes,No
+546,32,Female,Private,1546,2024-03-25,2024-03-27,2,2,Infection,Home,Yes,No
+547,32,Male,Medicare,1547,2024-06-05,2024-06-14,9,1,Infection,Home,Yes,No
+548,29,Female,Private,1548,2024-03-26,2024-04-03,8,1,Heart Failure,Home Health,Yes,No
+549,89,Female,Private,1549,2024-02-24,2024-03-03,8,1,Diabetes,Home,Yes,No
+550,67,Male,Medicare,1550,2024-06-06,2024-06-09,3,1,Heart Failure,Home,No,Yes
+551,41,Male,Medicaid,1551,2024-01-26,2024-02-04,9,2,Kidney Disease,Home Health,No,Yes
+552,70,Male,Medicare,1552,2024-02-02,2024-02-04,2,2,Kidney Disease,Home,No,Yes
+553,55,Male,Private,1553,2024-05-21,2024-05-27,6,3,COPD,Home,No,Yes
+554,86,Female,Medicaid,1554,2024-03-03,2024-03-05,2,0,Infection,Skilled Nursing,No,Yes
+555,65,Female,Medicare,1555,2024-03-29,2024-04-07,9,0,COPD,Home,Yes,No
+556,55,Male,Private,1556,2024-03-08,2024-03-11,3,0,Infection,Home Health,No,No
+557,28,Female,Private,1557,2024-04-11,2024-04-15,4,1,Diabetes,Home,No,No
+558,37,Female,Private,1558,2024-01-23,2024-01-27,4,0,Heart Failure,Home,Yes,No
+559,25,Female,Medicaid,1559,2024-03-28,2024-04-04,7,1,Kidney Disease,Home,Yes,No
+560,39,Female,Private,1560,2024-03-05,2024-03-10,5,1,COPD,Home Health,No,Yes
+561,39,Female,Private,1561,2024-05-28,2024-06-01,4,3,COPD,Home,No,No
+562,57,Male,Medicare,1562,2024-02-18,2024-02-27,9,0,Heart Failure,Home,Yes,No
+563,59,Male,Medicare,1563,2024-06-20,2024-06-27,7,1,COPD,Home,Yes,No
+564,35,Female,Private,1564,2024-04-08,2024-04-17,9,1,Heart Failure,Skilled Nursing,No,No
+565,70,Male,Medicare,1565,2024-01-09,2024-01-13,4,0,Heart Failure,Home,No,No
+566,50,Male,Medicaid,1566,2024-03-12,2024-03-21,9,1,Diabetes,Home,Yes,No
+567,52,Female,Medicare,1567,2024-04-26,2024-05-02,6,1,Kidney Disease,Home Health,No,No
+568,49,Female,Medicare,1568,2024-01-12,2024-01-18,6,1,Infection,Home,No,No
+569,72,Male,Medicaid,1569,2024-02-06,2024-02-14,8,3,Diabetes,Home Health,No,No
+570,39,Male,Private,1570,2024-02-12,2024-02-21,9,2,Kidney Disease,Home,No,Yes
+571,70,Female,Medicare,1571,2024-04-17,2024-04-21,4,2,Diabetes,Home Health,Yes,No
+572,45,Female,Private,1572,2024-05-30,2024-06-03,4,2,Kidney Disease,Home,Yes,No
+573,71,Female,Private,1573,2024-04-26,2024-05-01,5,2,Diabetes,Home Health,No,Yes
+574,49,Female,Private,1574,2024-02-05,2024-02-09,4,2,COPD,Home,No,Yes
+575,39,Male,Medicaid,1575,2024-03-08,2024-03-14,6,0,Diabetes,Home,No,No
+576,43,Female,Medicaid,1576,2024-02-03,2024-02-10,7,0,COPD,Home,Yes,No
+577,76,Male,Medicare,1577,2024-01-27,2024-02-02,6,2,Diabetes,Skilled Nursing,Yes,No
+578,52,Male,Private,1578,2024-02-04,2024-02-13,9,3,Infection,Home Health,Yes,No
+579,60,Male,Private,1579,2024-06-06,2024-06-09,3,1,Diabetes,Skilled Nursing,No,No
+580,73,Male,Private,1580,2024-03-17,2024-03-22,5,1,Diabetes,Skilled Nursing,Yes,No
+581,31,Male,Medicaid,1581,2024-04-04,2024-04-09,5,1,Infection,Skilled Nursing,No,No
+582,63,Male,Private,1582,2024-05-20,2024-05-28,8,2,Heart Failure,Home,Yes,Yes
+583,87,Male,Medicare,1583,2024-02-25,2024-02-27,2,1,Heart Failure,Home Health,Yes,No
+584,85,Female,Private,1584,2024-02-11,2024-02-20,9,3,Diabetes,Home,Yes,Yes
+585,31,Male,Medicaid,1585,2024-02-23,2024-02-25,2,3,Kidney Disease,Home Health,Yes,No
+586,69,Female,Private,1586,2024-04-15,2024-04-23,8,2,Infection,Skilled Nursing,Yes,No
+587,37,Female,Private,1587,2024-04-28,2024-05-05,7,1,COPD,Home,No,No
+588,45,Female,Private,1588,2024-05-16,2024-05-19,3,0,COPD,Skilled Nursing,No,Yes
+589,39,Male,Private,1589,2024-01-10,2024-01-19,9,1,Diabetes,Home,Yes,No
+590,66,Male,Medicaid,1590,2024-03-12,2024-03-21,9,3,Kidney Disease,Home Health,Yes,No
+591,73,Male,Medicare,1591,2024-06-02,2024-06-06,4,0,Kidney Disease,Home,Yes,No
+592,74,Female,Medicare,1592,2024-05-31,2024-06-04,4,3,Heart Failure,Home,No,No
+593,84,Male,Medicare,1593,2024-06-15,2024-06-18,3,0,Heart Failure,Skilled Nursing,No,Yes
+594,42,Female,Private,1594,2024-05-26,2024-05-31,5,1,Heart Failure,Home Health,No,No
+595,79,Male,Medicare,1595,2024-03-09,2024-03-17,8,0,Infection,Skilled Nursing,No,No
+596,57,Female,Private,1596,2024-04-28,2024-05-04,6,0,Infection,Home Health,No,No
+597,46,Male,Medicaid,1597,2024-06-24,2024-06-30,6,2,Kidney Disease,Skilled Nursing,Yes,No
+598,59,Male,Private,1598,2024-06-08,2024-06-12,4,1,Heart Failure,Home Health,Yes,No
+599,81,Female,Medicare,1599,2024-06-01,2024-06-04,3,3,Heart Failure,Home,No,Yes
+600,59,Female,Private,1600,2024-01-07,2024-01-13,6,1,Heart Failure,Skilled Nursing,Yes,No
+601,66,Female,Medicare,1601,2024-04-27,2024-05-03,6,2,Kidney Disease,Home Health,Yes,No
+602,65,Female,Medicaid,1602,2024-01-24,2024-01-29,5,1,COPD,Skilled Nursing,No,Yes
+603,43,Male,Private,1603,2024-03-08,2024-03-11,3,1,COPD,Home Health,No,Yes
+604,66,Female,Medicare,1604,2024-02-01,2024-02-09,8,0,Heart Failure,Home Health,No,Yes
+605,60,Female,Medicare,1605,2024-04-06,2024-04-11,5,2,Heart Failure,Home Health,No,Yes
+606,32,Male,Private,1606,2024-04-06,2024-04-10,4,1,Diabetes,Home,No,No
+607,65,Male,Medicare,1607,2024-01-13,2024-01-15,2,3,Infection,Home Health,No,No
+608,26,Female,Medicare,1608,2024-01-05,2024-01-10,5,2,Kidney Disease,Home Health,Yes,No
+609,56,Female,Medicaid,1609,2024-05-28,2024-06-06,9,1,Diabetes,Home,No,No
+610,74,Male,Medicare,1610,2024-03-07,2024-03-14,7,3,Infection,Home Health,Yes,No
+611,82,Male,Medicare,1611,2024-01-03,2024-01-10,7,1,Heart Failure,Home,No,No
+612,26,Female,Medicaid,1612,2024-06-20,2024-06-23,3,1,Kidney Disease,Home,Yes,No
+613,59,Female,Medicaid,1613,2024-04-07,2024-04-15,8,1,Infection,Skilled Nursing,No,No
+614,32,Male,Private,1614,2024-05-29,2024-06-03,5,1,Heart Failure,Home Health,Yes,No
+615,60,Male,Private,1615,2024-03-17,2024-03-23,6,2,Infection,Home,Yes,No
+616,71,Male,Private,1616,2024-02-24,2024-03-04,9,1,COPD,Home,No,Yes
+617,86,Female,Medicare,1617,2024-06-06,2024-06-08,2,2,COPD,Skilled Nursing,No,Yes
+618,40,Male,Medicare,1618,2024-01-12,2024-01-14,2,3,Kidney Disease,Home Health,No,No
+619,36,Female,Medicaid,1619,2024-05-15,2024-05-20,5,2,Heart Failure,Skilled Nursing,No,Yes
+620,40,Male,Private,1620,2024-01-30,2024-02-05,6,2,Kidney Disease,Skilled Nursing,Yes,No
+621,29,Male,Private,1621,2024-04-13,2024-04-22,9,3,Heart Failure,Home Health,No,No
+622,89,Female,Medicare,1622,2024-04-30,2024-05-07,7,0,Infection,Skilled Nursing,No,Yes
+623,46,Female,Private,1623,2024-02-01,2024-02-03,2,0,Kidney Disease,Skilled Nursing,No,No
+624,40,Male,Private,1624,2024-02-07,2024-02-12,5,1,Diabetes,Skilled Nursing,Yes,No
+625,38,Male,Medicaid,1625,2024-02-05,2024-02-07,2,2,Diabetes,Home Health,Yes,No
+626,26,Female,Medicaid,1626,2024-03-15,2024-03-19,4,3,Diabetes,Home Health,No,No
+627,86,Male,Medicaid,1627,2024-05-30,2024-06-02,3,3,COPD,Home,No,No
+628,79,Female,Private,1628,2024-01-06,2024-01-10,4,1,Diabetes,Home Health,No,Yes
+629,67,Male,Medicare,1629,2024-05-22,2024-05-29,7,3,COPD,Home Health,No,No
+630,36,Female,Medicaid,1630,2024-02-18,2024-02-21,3,1,Kidney Disease,Home,Yes,No
+631,69,Female,Private,1631,2024-02-04,2024-02-11,7,3,Infection,Home,Yes,No
+632,54,Male,Private,1632,2024-05-13,2024-05-17,4,3,COPD,Home,Yes,Yes
+633,31,Male,Medicaid,1633,2024-06-28,2024-07-05,7,0,COPD,Home Health,No,No
+634,39,Female,Private,1634,2024-05-28,2024-06-01,4,1,Heart Failure,Skilled Nursing,Yes,No
+635,26,Male,Private,1635,2024-06-11,2024-06-14,3,1,Kidney Disease,Home Health,Yes,No
+636,44,Female,Private,1636,2024-01-10,2024-01-12,2,1,Diabetes,Home Health,Yes,No
+637,49,Female,Medicaid,1637,2024-02-23,2024-02-25,2,3,Heart Failure,Home Health,Yes,Yes
+638,38,Male,Medicaid,1638,2024-03-05,2024-03-12,7,3,COPD,Home,Yes,Yes
+639,78,Female,Medicare,1639,2024-05-04,2024-05-09,5,2,Kidney Disease,Home,Yes,Yes
+640,65,Male,Medicare,1640,2024-05-13,2024-05-15,2,0,Kidney Disease,Home,Yes,No
+641,32,Female,Private,1641,2024-05-28,2024-05-31,3,3,Diabetes,Skilled Nursing,No,Yes
+642,49,Female,Medicaid,1642,2024-03-19,2024-03-24,5,0,Infection,Home Health,Yes,No
+643,84,Female,Medicare,1643,2024-01-12,2024-01-21,9,3,Kidney Disease,Skilled Nursing,No,Yes
+644,37,Male,Private,1644,2024-01-31,2024-02-07,7,3,Diabetes,Skilled Nursing,No,Yes
+645,42,Male,Private,1645,2024-02-29,2024-03-08,8,1,Diabetes,Home Health,No,No
+646,56,Female,Private,1646,2024-04-02,2024-04-06,4,1,Diabetes,Home,Yes,No
+647,26,Male,Medicaid,1647,2024-02-29,2024-03-08,8,2,Kidney Disease,Home Health,No,Yes
+648,55,Male,Private,1648,2024-01-05,2024-01-09,4,1,Diabetes,Home Health,No,No
+649,34,Female,Private,1649,2024-03-29,2024-04-01,3,1,Heart Failure,Skilled Nursing,Yes,No
+650,35,Female,Medicaid,1650,2024-06-26,2024-07-02,6,2,COPD,Skilled Nursing,No,No
+651,80,Female,Medicare,1651,2024-03-23,2024-03-25,2,2,COPD,Skilled Nursing,Yes,Yes
+652,45,Female,Private,1652,2024-03-13,2024-03-18,5,1,Diabetes,Skilled Nursing,Yes,No
+653,31,Female,Private,1653,2024-03-20,2024-03-29,9,3,COPD,Home Health,Yes,No
+654,28,Female,Private,1654,2024-01-04,2024-01-12,8,3,Diabetes,Home Health,No,Yes
+655,41,Female,Medicaid,1655,2024-04-10,2024-04-18,8,3,Infection,Home,Yes,No
+656,76,Female,Private,1656,2024-02-21,2024-02-26,5,3,Kidney Disease,Home,No,Yes
+657,62,Female,Medicare,1657,2024-06-26,2024-07-04,8,0,COPD,Home,Yes,No
+658,87,Female,Medicare,1658,2024-03-02,2024-03-11,9,0,Kidney Disease,Home Health,Yes,No
+659,31,Female,Medicaid,1659,2024-06-03,2024-06-08,5,1,COPD,Home,No,Yes
+660,38,Male,Private,1660,2024-03-26,2024-04-01,6,1,Heart Failure,Home,No,Yes
+661,79,Male,Medicare,1661,2024-05-09,2024-05-16,7,2,COPD,Home Health,Yes,Yes
+662,45,Female,Private,1662,2024-03-19,2024-03-25,6,1,Infection,Home Health,No,No
+663,82,Female,Medicare,1663,2024-04-29,2024-05-07,8,0,Kidney Disease,Home,No,No
+664,89,Female,Private,1664,2024-01-13,2024-01-19,6,1,Kidney Disease,Home,Yes,No
+665,77,Male,Medicare,1665,2024-03-22,2024-03-28,6,0,COPD,Home,No,Yes
+666,56,Male,Private,1666,2024-06-12,2024-06-14,2,2,Kidney Disease,Home Health,Yes,No
+667,84,Male,Private,1667,2024-05-18,2024-05-26,8,0,Diabetes,Home Health,No,No
+668,76,Female,Medicare,1668,2024-04-26,2024-04-29,3,1,COPD,Home Health,No,Yes
+669,58,Male,Private,1669,2024-02-21,2024-03-01,9,3,Infection,Home,Yes,No
+670,76,Male,Private,1670,2024-06-05,2024-06-12,7,1,COPD,Home,Yes,Yes
+671,45,Male,Private,1671,2024-02-11,2024-02-17,6,0,Heart Failure,Home Health,No,No
+672,88,Male,Medicare,1672,2024-01-17,2024-01-26,9,0,Heart Failure,Skilled Nursing,Yes,Yes
+673,65,Male,Medicare,1673,2024-05-08,2024-05-11,3,3,Heart Failure,Home Health,No,Yes
+674,72,Female,Medicare,1674,2024-01-29,2024-01-31,2,1,COPD,Home,Yes,Yes
+675,82,Male,Medicare,1675,2024-01-21,2024-01-26,5,2,Diabetes,Skilled Nursing,Yes,Yes
+676,58,Male,Private,1676,2024-01-08,2024-01-12,4,1,Kidney Disease,Home,No,No
+677,73,Male,Private,1677,2024-03-19,2024-03-21,2,3,Infection,Home,Yes,No
+678,69,Male,Medicare,1678,2024-03-09,2024-03-18,9,3,Infection,Home Health,Yes,No
+679,89,Male,Medicare,1679,2024-03-27,2024-04-02,6,3,COPD,Skilled Nursing,No,Yes
+680,67,Male,Medicare,1680,2024-05-08,2024-05-14,6,2,Heart Failure,Home,No,Yes
+681,48,Male,Medicaid,1681,2024-05-31,2024-06-02,2,0,Heart Failure,Skilled Nursing,Yes,No
+682,44,Female,Private,1682,2024-01-21,2024-01-30,9,1,Infection,Home Health,No,No
+683,55,Female,Medicare,1683,2024-04-19,2024-04-24,5,2,COPD,Home,No,Yes
+684,76,Female,Medicare,1684,2024-05-22,2024-05-26,4,2,Heart Failure,Home,Yes,Yes
+685,52,Male,Private,1685,2024-02-20,2024-02-24,4,1,COPD,Home Health,No,No
+686,29,Female,Medicaid,1686,2024-01-05,2024-01-12,7,1,Heart Failure,Home Health,No,Yes
+687,32,Female,Private,1687,2024-03-04,2024-03-07,3,1,Infection,Home Health,No,No
+688,32,Female,Medicaid,1688,2024-04-13,2024-04-15,2,0,COPD,Home,Yes,No
+689,74,Male,Medicaid,1689,2024-02-18,2024-02-23,5,1,COPD,Home,No,No
+690,65,Female,Private,1690,2024-05-01,2024-05-09,8,1,Infection,Home,No,No
+691,34,Female,Private,1691,2024-05-28,2024-06-02,5,3,COPD,Home Health,No,Yes
+692,26,Female,Private,1692,2024-04-27,2024-05-03,6,0,Heart Failure,Home Health,No,Yes
+693,56,Male,Medicaid,1693,2024-04-04,2024-04-13,9,3,Diabetes,Skilled Nursing,Yes,No
+694,56,Female,Private,1694,2024-05-03,2024-05-06,3,2,COPD,Home Health,No,Yes
+695,34,Female,Private,1695,2024-01-15,2024-01-17,2,3,Kidney Disease,Skilled Nursing,Yes,No
+696,42,Male,Private,1696,2024-06-01,2024-06-10,9,2,COPD,Skilled Nursing,No,No
+697,46,Male,Medicare,1697,2024-06-06,2024-06-11,5,0,Infection,Home Health,Yes,No
+698,68,Female,Medicaid,1698,2024-02-01,2024-02-05,4,1,Heart Failure,Skilled Nursing,Yes,No
+699,45,Female,Private,1699,2024-05-01,2024-05-10,9,1,COPD,Home,No,Yes
+700,63,Female,Medicare,1700,2024-01-12,2024-01-14,2,2,Infection,Home Health,No,Yes
+701,42,Female,Medicaid,1701,2024-05-28,2024-06-03,6,1,Heart Failure,Home,No,Yes
+702,45,Male,Medicaid,1702,2024-05-05,2024-05-14,9,1,Kidney Disease,Skilled Nursing,No,No
+703,31,Male,Private,1703,2024-05-30,2024-06-04,5,3,Infection,Home Health,No,No
+704,46,Male,Medicaid,1704,2024-03-29,2024-04-05,7,3,Diabetes,Skilled Nursing,No,No
+705,53,Female,Medicaid,1705,2024-01-13,2024-01-16,3,1,Heart Failure,Home,Yes,No
+706,53,Male,Private,1706,2024-06-28,2024-07-02,4,1,Diabetes,Skilled Nursing,No,No
+707,47,Male,Medicare,1707,2024-03-28,2024-04-02,5,0,COPD,Home Health,Yes,No
+708,46,Female,Private,1708,2024-06-19,2024-06-25,6,0,Kidney Disease,Home,Yes,No
+709,80,Male,Medicaid,1709,2024-01-03,2024-01-11,8,1,Infection,Home,No,No
+710,43,Male,Medicaid,1710,2024-01-23,2024-01-29,6,1,Heart Failure,Home Health,Yes,No
+711,63,Male,Medicaid,1711,2024-04-17,2024-04-25,8,0,Infection,Home Health,Yes,No
+712,32,Female,Medicare,1712,2024-04-15,2024-04-18,3,3,Heart Failure,Skilled Nursing,No,No
+713,25,Female,Medicaid,1713,2024-04-17,2024-04-23,6,2,COPD,Skilled Nursing,Yes,No
+714,89,Male,Medicare,1714,2024-05-11,2024-05-20,9,2,Kidney Disease,Skilled Nursing,No,Yes
+715,88,Female,Medicare,1715,2024-04-15,2024-04-18,3,2,Kidney Disease,Skilled Nursing,Yes,Yes
+716,34,Female,Medicaid,1716,2024-05-28,2024-06-06,9,1,Infection,Home,Yes,No
+717,51,Female,Private,1717,2024-03-06,2024-03-08,2,3,Kidney Disease,Home Health,No,No
+718,37,Male,Private,1718,2024-05-16,2024-05-21,5,3,Kidney Disease,Skilled Nursing,No,Yes
+719,82,Male,Medicaid,1719,2024-02-23,2024-02-28,5,0,COPD,Skilled Nursing,No,No
+720,38,Female,Private,1720,2024-04-30,2024-05-03,3,0,Kidney Disease,Skilled Nursing,No,No
+721,44,Female,Medicaid,1721,2024-03-15,2024-03-24,9,2,Infection,Home,Yes,No
+722,80,Male,Medicare,1722,2024-04-10,2024-04-13,3,3,Heart Failure,Skilled Nursing,Yes,Yes
+723,28,Male,Medicaid,1723,2024-01-20,2024-01-23,3,3,Diabetes,Home,Yes,No
+724,50,Female,Private,1724,2024-02-06,2024-02-13,7,0,Kidney Disease,Home,No,No
+725,78,Female,Medicare,1725,2024-04-12,2024-04-18,6,1,Kidney Disease,Home,No,Yes
+726,62,Female,Private,1726,2024-06-22,2024-06-27,5,3,Heart Failure,Home Health,No,Yes
+727,81,Female,Medicaid,1727,2024-06-21,2024-06-26,5,0,Heart Failure,Home,No,Yes
+728,28,Female,Medicaid,1728,2024-01-14,2024-01-18,4,3,Diabetes,Skilled Nursing,Yes,No
+729,82,Male,Medicare,1729,2024-02-24,2024-02-29,5,3,COPD,Skilled Nursing,Yes,Yes
+730,48,Male,Medicaid,1730,2024-06-10,2024-06-17,7,1,Heart Failure,Home Health,Yes,No
+731,43,Female,Private,1731,2024-06-07,2024-06-12,5,3,Diabetes,Home,Yes,No
+732,43,Female,Medicare,1732,2024-02-18,2024-02-26,8,1,Infection,Skilled Nursing,Yes,No
+733,46,Male,Private,1733,2024-05-31,2024-06-06,6,3,Diabetes,Skilled Nursing,Yes,No
+734,54,Female,Private,1734,2024-02-27,2024-03-05,7,0,Kidney Disease,Skilled Nursing,No,No
+735,55,Male,Medicaid,1735,2024-04-09,2024-04-18,9,2,Diabetes,Skilled Nursing,Yes,No
+736,72,Male,Medicare,1736,2024-06-21,2024-06-26,5,1,Kidney Disease,Home,No,Yes
+737,79,Female,Medicare,1737,2024-04-22,2024-04-30,8,0,COPD,Home,No,Yes
+738,42,Female,Private,1738,2024-03-03,2024-03-08,5,0,Kidney Disease,Skilled Nursing,No,No
+739,71,Male,Medicare,1739,2024-02-26,2024-03-02,5,1,Diabetes,Home Health,Yes,No
+740,69,Male,Medicaid,1740,2024-06-09,2024-06-11,2,1,Diabetes,Home Health,Yes,No
+741,28,Female,Private,1741,2024-05-27,2024-06-05,9,2,Diabetes,Home,No,Yes
+742,39,Female,Private,1742,2024-02-16,2024-02-23,7,3,Diabetes,Skilled Nursing,Yes,No
+743,33,Female,Private,1743,2024-03-30,2024-04-08,9,0,Heart Failure,Home,Yes,No
+744,85,Male,Medicare,1744,2024-05-17,2024-05-20,3,2,COPD,Skilled Nursing,No,No
+745,75,Male,Medicare,1745,2024-05-26,2024-05-29,3,2,Infection,Skilled Nursing,Yes,No
+746,70,Male,Medicare,1746,2024-06-02,2024-06-06,4,0,Diabetes,Home,Yes,No
+747,88,Male,Medicare,1747,2024-06-13,2024-06-18,5,0,Diabetes,Skilled Nursing,Yes,No
+748,45,Male,Medicaid,1748,2024-03-14,2024-03-23,9,0,Infection,Home Health,No,No
+749,28,Female,Private,1749,2024-05-05,2024-05-13,8,2,Heart Failure,Home Health,Yes,Yes
+750,59,Male,Medicaid,1750,2024-05-08,2024-05-17,9,0,Kidney Disease,Home,Yes,No
+751,65,Female,Medicaid,1751,2024-06-22,2024-06-27,5,3,Heart Failure,Home Health,No,Yes
+752,84,Female,Private,1752,2024-02-26,2024-03-05,8,3,Infection,Home Health,No,No
+753,48,Male,Private,1753,2024-02-05,2024-02-11,6,1,Kidney Disease,Home,Yes,No
+754,48,Female,Medicaid,1754,2024-04-17,2024-04-20,3,1,Kidney Disease,Home Health,Yes,No
+755,31,Female,Private,1755,2024-06-11,2024-06-19,8,3,Diabetes,Home,Yes,No
+756,38,Male,Medicare,1756,2024-04-29,2024-05-02,3,3,Kidney Disease,Skilled Nursing,No,Yes
+757,40,Male,Private,1757,2024-04-15,2024-04-17,2,0,Diabetes,Home,No,No
+758,68,Male,Medicare,1758,2024-03-13,2024-03-19,6,3,COPD,Skilled Nursing,No,Yes
+759,80,Male,Medicare,1759,2024-04-16,2024-04-21,5,1,Kidney Disease,Home,No,Yes
+760,81,Male,Medicare,1760,2024-01-21,2024-01-26,5,1,Heart Failure,Home Health,Yes,Yes
+761,57,Female,Medicaid,1761,2024-01-07,2024-01-14,7,2,Diabetes,Home,Yes,No
+762,39,Male,Private,1762,2024-06-08,2024-06-17,9,2,Heart Failure,Home,No,Yes
+763,44,Female,Private,1763,2024-05-22,2024-05-31,9,2,Diabetes,Skilled Nursing,Yes,No
+764,45,Female,Medicaid,1764,2024-06-18,2024-06-21,3,3,Infection,Home,Yes,No
+765,38,Female,Private,1765,2024-02-26,2024-03-03,6,1,COPD,Skilled Nursing,No,Yes
+766,45,Female,Private,1766,2024-03-22,2024-03-28,6,2,Diabetes,Home Health,No,Yes
+767,61,Female,Private,1767,2024-02-18,2024-02-22,4,2,Heart Failure,Home,Yes,No
+768,36,Male,Medicaid,1768,2024-06-17,2024-06-19,2,1,COPD,Home Health,Yes,No
+769,57,Male,Medicaid,1769,2024-03-21,2024-03-30,9,0,Kidney Disease,Skilled Nursing,Yes,No
+770,85,Female,Private,1770,2024-04-07,2024-04-12,5,1,COPD,Home,No,Yes
+771,67,Female,Medicare,1771,2024-06-17,2024-06-25,8,1,COPD,Home Health,No,Yes
+772,73,Female,Medicare,1772,2024-01-17,2024-01-20,3,1,Kidney Disease,Skilled Nursing,Yes,No
+773,89,Female,Medicare,1773,2024-03-14,2024-03-20,6,0,Heart Failure,Skilled Nursing,Yes,No
+774,26,Male,Medicaid,1774,2024-01-22,2024-01-31,9,0,COPD,Home Health,Yes,No
+775,40,Male,Private,1775,2024-04-21,2024-04-25,4,0,Kidney Disease,Skilled Nursing,Yes,No
+776,63,Female,Medicaid,1776,2024-03-26,2024-03-31,5,3,Heart Failure,Home,No,Yes
+777,64,Female,Private,1777,2024-02-07,2024-02-12,5,2,Heart Failure,Skilled Nursing,Yes,Yes
+778,34,Female,Private,1778,2024-04-08,2024-04-17,9,2,Infection,Home,Yes,No
+779,87,Female,Medicare,1779,2024-02-18,2024-02-27,9,3,Kidney Disease,Skilled Nursing,No,No
+780,31,Female,Private,1780,2024-01-21,2024-01-26,5,1,Kidney Disease,Home,No,No
+781,39,Female,Private,1781,2024-04-29,2024-05-08,9,0,Heart Failure,Skilled Nursing,No,Yes
+782,38,Male,Private,1782,2024-06-03,2024-06-09,6,0,Diabetes,Home Health,No,No
+783,64,Female,Medicaid,1783,2024-02-27,2024-03-03,5,1,Heart Failure,Skilled Nursing,Yes,No
+784,87,Female,Medicare,1784,2024-03-06,2024-03-08,2,3,Heart Failure,Skilled Nursing,No,Yes
+785,27,Male,Private,1785,2024-02-13,2024-02-15,2,1,Kidney Disease,Skilled Nursing,Yes,No
+786,30,Male,Private,1786,2024-06-15,2024-06-20,5,2,Diabetes,Skilled Nursing,Yes,No
+787,74,Female,Medicare,1787,2024-06-19,2024-06-23,4,0,Infection,Home,Yes,No
+788,75,Female,Medicare,1788,2024-01-11,2024-01-20,9,3,Heart Failure,Home,Yes,Yes
+789,32,Male,Medicaid,1789,2024-05-31,2024-06-05,5,3,COPD,Home,Yes,Yes
+790,65,Male,Medicare,1790,2024-06-12,2024-06-18,6,0,Infection,Skilled Nursing,Yes,No
+791,79,Female,Medicaid,1791,2024-05-16,2024-05-24,8,2,COPD,Home Health,No,No
+792,72,Male,Medicare,1792,2024-04-13,2024-04-16,3,1,Infection,Skilled Nursing,Yes,No
+793,84,Male,Medicare,1793,2024-01-12,2024-01-15,3,2,Kidney Disease,Home Health,Yes,No
+794,27,Female,Medicaid,1794,2024-04-18,2024-04-22,4,2,Kidney Disease,Skilled Nursing,Yes,No
+795,64,Male,Private,1795,2024-06-09,2024-06-14,5,0,COPD,Home,Yes,No
+796,32,Male,Private,1796,2024-04-10,2024-04-19,9,3,Kidney Disease,Skilled Nursing,No,No
+797,72,Male,Medicare,1797,2024-04-16,2024-04-22,6,3,Kidney Disease,Skilled Nursing,Yes,No
+798,43,Male,Medicare,1798,2024-02-01,2024-02-03,2,3,COPD,Skilled Nursing,Yes,No
+799,35,Female,Private,1799,2024-02-15,2024-02-23,8,3,Diabetes,Home,No,Yes
+800,25,Female,Medicaid,1800,2024-03-03,2024-03-09,6,2,Infection,Home Health,Yes,No
+801,45,Female,Private,1801,2024-06-06,2024-06-12,6,1,Infection,Home,Yes,No
+802,28,Female,Private,1802,2024-06-04,2024-06-11,7,1,Kidney Disease,Home Health,No,No
+803,83,Male,Medicare,1803,2024-05-07,2024-05-11,4,0,Heart Failure,Skilled Nursing,Yes,Yes
+804,49,Female,Private,1804,2024-05-10,2024-05-12,2,3,Diabetes,Home Health,No,Yes
+805,49,Female,Private,1805,2024-05-27,2024-05-30,3,1,Diabetes,Home Health,No,No
+806,29,Female,Private,1806,2024-01-09,2024-01-14,5,1,Infection,Home,No,No
+807,74,Female,Medicare,1807,2024-05-13,2024-05-17,4,3,Kidney Disease,Skilled Nursing,No,Yes
+808,68,Female,Medicare,1808,2024-04-30,2024-05-04,4,1,Infection,Skilled Nursing,Yes,No
+809,71,Male,Private,1809,2024-04-17,2024-04-22,5,0,Infection,Skilled Nursing,Yes,No
+810,27,Male,Private,1810,2024-03-16,2024-03-21,5,1,Infection,Home Health,Yes,No
+811,45,Male,Private,1811,2024-06-04,2024-06-13,9,1,Heart Failure,Home,Yes,No
+812,86,Female,Medicaid,1812,2024-06-09,2024-06-15,6,2,Infection,Home,Yes,Yes
+813,76,Female,Medicare,1813,2024-02-03,2024-02-05,2,2,Heart Failure,Skilled Nursing,No,No
+814,71,Female,Medicare,1814,2024-03-22,2024-03-25,3,2,Kidney Disease,Home Health,Yes,No
+815,81,Male,Medicare,1815,2024-01-23,2024-02-01,9,3,Infection,Home,Yes,No
+816,46,Female,Private,1816,2024-01-17,2024-01-23,6,3,Kidney Disease,Skilled Nursing,Yes,No
+817,35,Male,Private,1817,2024-04-03,2024-04-11,8,2,Diabetes,Home,Yes,No
+818,59,Male,Medicare,1818,2024-02-02,2024-02-07,5,0,Diabetes,Home Health,No,No
+819,40,Female,Private,1819,2024-06-10,2024-06-13,3,2,COPD,Skilled Nursing,Yes,No
+820,64,Male,Medicaid,1820,2024-06-04,2024-06-12,8,2,Kidney Disease,Home Health,No,Yes
+821,44,Female,Private,1821,2024-05-03,2024-05-05,2,3,COPD,Home Health,No,Yes
+822,87,Female,Medicare,1822,2024-03-07,2024-03-12,5,1,Kidney Disease,Home,Yes,No
+823,49,Female,Private,1823,2024-02-16,2024-02-23,7,2,Heart Failure,Skilled Nursing,No,No
+824,87,Female,Medicare,1824,2024-01-21,2024-01-25,4,0,Infection,Skilled Nursing,No,No
+825,77,Female,Medicaid,1825,2024-02-15,2024-02-20,5,1,Infection,Skilled Nursing,No,No
+826,41,Male,Private,1826,2024-02-08,2024-02-10,2,2,Diabetes,Home,No,Yes
+827,30,Male,Private,1827,2024-05-30,2024-06-03,4,2,COPD,Home Health,No,No
+828,70,Male,Private,1828,2024-02-07,2024-02-14,7,3,Diabetes,Home,No,Yes
+829,86,Female,Medicare,1829,2024-02-04,2024-02-08,4,1,COPD,Home Health,No,Yes
+830,49,Female,Private,1830,2024-06-16,2024-06-25,9,1,COPD,Home Health,Yes,No
+831,50,Male,Medicaid,1831,2024-04-11,2024-04-19,8,1,Diabetes,Home,Yes,No
+832,72,Male,Private,1832,2024-03-23,2024-03-30,7,2,Kidney Disease,Home Health,Yes,No
+833,27,Male,Medicaid,1833,2024-06-18,2024-06-22,4,0,Infection,Skilled Nursing,Yes,No
+834,52,Male,Medicaid,1834,2024-06-21,2024-06-29,8,1,Diabetes,Skilled Nursing,No,No
+835,87,Female,Private,1835,2024-03-13,2024-03-17,4,3,Kidney Disease,Home Health,No,Yes
+836,43,Female,Private,1836,2024-06-23,2024-06-28,5,1,Kidney Disease,Home,Yes,No
+837,62,Female,Private,1837,2024-03-01,2024-03-06,5,3,Kidney Disease,Home,No,Yes
+838,54,Male,Private,1838,2024-01-09,2024-01-18,9,0,Heart Failure,Skilled Nursing,No,Yes
+839,76,Male,Medicare,1839,2024-03-29,2024-04-05,7,2,COPD,Home Health,Yes,Yes
+840,77,Female,Medicare,1840,2024-03-18,2024-03-25,7,0,Diabetes,Home,No,Yes
+841,32,Female,Private,1841,2024-01-02,2024-01-04,2,0,Infection,Home Health,Yes,No
+842,65,Female,Private,1842,2024-04-29,2024-05-07,8,2,Diabetes,Home Health,No,Yes
+843,79,Male,Medicare,1843,2024-01-16,2024-01-22,6,1,Kidney Disease,Skilled Nursing,Yes,No
+844,72,Male,Private,1844,2024-06-06,2024-06-11,5,2,COPD,Skilled Nursing,No,No
+845,35,Male,Private,1845,2024-03-04,2024-03-11,7,1,COPD,Home Health,Yes,No
+846,45,Male,Private,1846,2024-03-09,2024-03-18,9,3,COPD,Skilled Nursing,No,No
+847,68,Female,Medicare,1847,2024-06-09,2024-06-15,6,0,Kidney Disease,Home,No,No
+848,85,Male,Medicare,1848,2024-05-16,2024-05-21,5,2,Heart Failure,Home,No,Yes
+849,89,Male,Medicare,1849,2024-01-08,2024-01-14,6,2,Diabetes,Home Health,No,Yes
+850,71,Female,Medicare,1850,2024-06-16,2024-06-21,5,1,Infection,Home,No,No
+851,70,Male,Medicare,1851,2024-02-16,2024-02-24,8,0,Kidney Disease,Home,No,No
+852,43,Female,Private,1852,2024-01-26,2024-01-31,5,0,Kidney Disease,Home Health,No,No
+853,46,Male,Private,1853,2024-01-21,2024-01-25,4,1,Diabetes,Home Health,Yes,No
+854,44,Male,Private,1854,2024-06-05,2024-06-09,4,3,Diabetes,Home Health,No,No
+855,79,Male,Medicare,1855,2024-04-01,2024-04-06,5,3,Diabetes,Home,No,Yes
+856,46,Female,Medicaid,1856,2024-03-16,2024-03-22,6,2,Kidney Disease,Skilled Nursing,No,Yes
+857,58,Female,Medicaid,1857,2024-03-31,2024-04-08,8,0,Diabetes,Skilled Nursing,No,No
+858,25,Female,Private,1858,2024-03-12,2024-03-20,8,1,Heart Failure,Home,Yes,No
+859,30,Female,Medicaid,1859,2024-06-01,2024-06-04,3,0,Heart Failure,Home,Yes,No
+860,85,Female,Medicare,1860,2024-01-12,2024-01-19,7,1,Heart Failure,Home Health,Yes,Yes
+861,51,Female,Private,1861,2024-05-15,2024-05-19,4,3,Heart Failure,Home,No,Yes
+862,89,Male,Medicare,1862,2024-04-02,2024-04-08,6,0,Infection,Home Health,Yes,No
+863,64,Male,Medicaid,1863,2024-05-21,2024-05-25,4,3,Infection,Skilled Nursing,Yes,No
+864,80,Male,Medicare,1864,2024-06-25,2024-07-01,6,0,COPD,Home,Yes,Yes
+865,73,Female,Private,1865,2024-02-15,2024-02-17,2,1,Infection,Skilled Nursing,No,Yes
+866,32,Male,Medicaid,1866,2024-02-12,2024-02-17,5,3,Kidney Disease,Home,No,Yes
+867,63,Female,Private,1867,2024-03-25,2024-03-31,6,0,Kidney Disease,Home Health,No,No
+868,88,Female,Medicare,1868,2024-03-02,2024-03-05,3,2,Heart Failure,Home Health,No,Yes
+869,78,Female,Medicare,1869,2024-05-05,2024-05-07,2,0,Heart Failure,Home,Yes,Yes
+870,61,Female,Private,1870,2024-02-18,2024-02-20,2,0,Infection,Home Health,No,No
+871,45,Male,Medicaid,1871,2024-02-20,2024-02-24,4,2,Diabetes,Skilled Nursing,Yes,No
+872,79,Male,Medicare,1872,2024-02-10,2024-02-18,8,0,COPD,Home Health,No,Yes
+873,88,Male,Private,1873,2024-01-11,2024-01-18,7,2,Infection,Home Health,Yes,Yes
+874,35,Female,Private,1874,2024-03-17,2024-03-25,8,1,Kidney Disease,Skilled Nursing,No,No
+875,69,Female,Medicare,1875,2024-01-01,2024-01-10,9,3,Kidney Disease,Home Health,No,Yes
+876,43,Male,Private,1876,2024-03-16,2024-03-25,9,3,Diabetes,Home,No,Yes
+877,85,Female,Private,1877,2024-04-18,2024-04-23,5,0,Infection,Home,No,Yes
+878,57,Male,Medicaid,1878,2024-02-14,2024-02-17,3,2,Heart Failure,Home,Yes,Yes
+879,32,Male,Medicaid,1879,2024-06-01,2024-06-05,4,1,Heart Failure,Home,Yes,No
+880,54,Male,Medicare,1880,2024-06-23,2024-07-01,8,0,COPD,Home Health,No,Yes
+881,71,Female,Medicaid,1881,2024-03-24,2024-03-27,3,1,Infection,Skilled Nursing,Yes,No
+882,57,Female,Medicare,1882,2024-05-06,2024-05-11,5,1,COPD,Home,No,No
+883,43,Male,Private,1883,2024-06-04,2024-06-13,9,3,COPD,Home,No,No
+884,39,Male,Private,1884,2024-02-10,2024-02-18,8,1,COPD,Home Health,No,Yes
+885,87,Male,Medicare,1885,2024-01-29,2024-01-31,2,1,Heart Failure,Skilled Nursing,Yes,Yes
+886,75,Female,Medicaid,1886,2024-03-15,2024-03-21,6,1,COPD,Skilled Nursing,Yes,No
+887,38,Male,Private,1887,2024-02-20,2024-02-27,7,0,Diabetes,Home,No,No
+888,63,Male,Medicaid,1888,2024-01-28,2024-02-01,4,3,COPD,Home,Yes,Yes
+889,51,Female,Medicare,1889,2024-04-26,2024-04-29,3,0,Diabetes,Skilled Nursing,Yes,No
+890,62,Female,Medicaid,1890,2024-05-10,2024-05-19,9,1,Heart Failure,Home,No,Yes
+891,64,Male,Private,1891,2024-01-02,2024-01-04,2,0,Heart Failure,Home,Yes,No
+892,36,Female,Medicare,1892,2024-06-11,2024-06-15,4,0,Kidney Disease,Home Health,Yes,No
+893,79,Male,Medicare,1893,2024-02-14,2024-02-22,8,1,COPD,Skilled Nursing,Yes,Yes
+894,86,Male,Medicare,1894,2024-02-18,2024-02-26,8,2,Kidney Disease,Skilled Nursing,No,No
+895,49,Female,Medicaid,1895,2024-01-23,2024-02-01,9,0,Heart Failure,Skilled Nursing,No,Yes
+896,62,Male,Private,1896,2024-01-28,2024-02-03,6,1,Heart Failure,Home Health,No,Yes
+897,42,Female,Private,1897,2024-06-12,2024-06-16,4,0,COPD,Skilled Nursing,No,Yes
+898,77,Female,Medicare,1898,2024-05-01,2024-05-08,7,3,Kidney Disease,Skilled Nursing,Yes,Yes
+899,56,Male,Private,1899,2024-06-04,2024-06-09,5,2,Diabetes,Skilled Nursing,No,Yes
+900,65,Female,Private,1900,2024-03-03,2024-03-11,8,3,Heart Failure,Skilled Nursing,No,No
+901,72,Male,Medicare,1901,2024-06-08,2024-06-11,3,2,Heart Failure,Skilled Nursing,No,Yes
+902,81,Female,Private,1902,2024-04-27,2024-05-02,5,3,COPD,Skilled Nursing,No,Yes
+903,57,Female,Private,1903,2024-05-31,2024-06-08,8,1,Kidney Disease,Skilled Nursing,Yes,No
+904,80,Male,Private,1904,2024-06-04,2024-06-10,6,2,COPD,Home,Yes,Yes
+905,61,Female,Private,1905,2024-02-25,2024-02-27,2,0,Heart Failure,Skilled Nursing,No,Yes
+906,71,Female,Medicare,1906,2024-05-27,2024-05-31,4,0,COPD,Skilled Nursing,Yes,Yes
+907,84,Male,Medicare,1907,2024-05-25,2024-05-30,5,2,Heart Failure,Home Health,Yes,Yes
+908,67,Female,Private,1908,2024-05-05,2024-05-09,4,0,Heart Failure,Skilled Nursing,No,Yes
+909,62,Male,Medicaid,1909,2024-03-04,2024-03-10,6,3,Heart Failure,Home,Yes,Yes
+910,58,Male,Private,1910,2024-06-24,2024-06-29,5,3,COPD,Home,Yes,Yes
+911,89,Male,Medicare,1911,2024-01-31,2024-02-05,5,0,Kidney Disease,Home Health,Yes,No
+912,74,Female,Medicare,1912,2024-03-09,2024-03-16,7,3,Infection,Home,Yes,No
+913,83,Female,Medicare,1913,2024-03-07,2024-03-11,4,0,COPD,Skilled Nursing,No,No
+914,28,Female,Private,1914,2024-06-02,2024-06-06,4,1,Diabetes,Home Health,No,No
+915,88,Female,Private,1915,2024-02-20,2024-02-23,3,1,Diabetes,Skilled Nursing,Yes,No
+916,83,Male,Medicare,1916,2024-05-04,2024-05-12,8,0,Kidney Disease,Skilled Nursing,No,Yes
+917,54,Female,Private,1917,2024-06-18,2024-06-24,6,1,Infection,Home,Yes,No
+918,61,Female,Private,1918,2024-06-18,2024-06-23,5,0,Kidney Disease,Home,No,No
+919,59,Male,Private,1919,2024-03-27,2024-04-03,7,3,COPD,Home,No,Yes
+920,42,Female,Medicaid,1920,2024-04-22,2024-04-28,6,0,Kidney Disease,Skilled Nursing,Yes,No
+921,83,Male,Medicare,1921,2024-06-23,2024-06-30,7,3,Diabetes,Home,Yes,Yes
+922,41,Male,Private,1922,2024-04-18,2024-04-27,9,3,Diabetes,Home,No,Yes
+923,46,Male,Medicaid,1923,2024-03-08,2024-03-14,6,0,Diabetes,Home Health,Yes,No
+924,73,Female,Private,1924,2024-05-20,2024-05-23,3,0,Kidney Disease,Home,No,Yes
+925,77,Female,Medicare,1925,2024-05-02,2024-05-10,8,2,Heart Failure,Home Health,No,No
+926,27,Female,Private,1926,2024-02-11,2024-02-14,3,3,Heart Failure,Home,Yes,Yes
+927,75,Female,Medicare,1927,2024-03-25,2024-04-01,7,2,Kidney Disease,Home,No,Yes
+928,45,Male,Private,1928,2024-02-13,2024-02-17,4,2,COPD,Home,Yes,Yes
+929,25,Female,Medicaid,1929,2024-04-01,2024-04-09,8,3,Kidney Disease,Skilled Nursing,Yes,No
+930,37,Male,Private,1930,2024-04-20,2024-04-23,3,2,Infection,Home,Yes,No
+931,75,Female,Medicare,1931,2024-01-17,2024-01-21,4,3,Kidney Disease,Skilled Nursing,Yes,Yes
+932,48,Female,Medicare,1932,2024-01-19,2024-01-25,6,2,Kidney Disease,Home Health,Yes,No
+933,32,Male,Private,1933,2024-01-28,2024-02-03,6,0,COPD,Home Health,No,Yes
+934,60,Male,Private,1934,2024-04-27,2024-05-01,4,2,Kidney Disease,Home,Yes,No
+935,88,Male,Medicare,1935,2024-03-31,2024-04-06,6,1,Infection,Home Health,Yes,No
+936,35,Male,Private,1936,2024-02-23,2024-02-29,6,2,Infection,Home Health,No,Yes
+937,36,Female,Private,1937,2024-05-28,2024-06-04,7,2,Heart Failure,Home Health,Yes,No
+938,29,Female,Private,1938,2024-01-20,2024-01-22,2,1,Infection,Home,Yes,No
+939,36,Male,Private,1939,2024-03-10,2024-03-12,2,2,COPD,Skilled Nursing,Yes,Yes
+940,43,Male,Private,1940,2024-06-02,2024-06-11,9,3,Kidney Disease,Home,No,Yes
+941,76,Male,Medicare,1941,2024-04-05,2024-04-12,7,2,Infection,Home,No,Yes
+942,79,Male,Medicare,1942,2024-04-11,2024-04-15,4,0,Kidney Disease,Home Health,No,Yes
+943,86,Male,Medicare,1943,2024-05-30,2024-06-07,8,2,Heart Failure,Home Health,Yes,Yes
+944,88,Male,Medicare,1944,2024-06-27,2024-07-03,6,1,Kidney Disease,Home Health,Yes,No
+945,75,Female,Medicare,1945,2024-06-23,2024-07-01,8,2,Heart Failure,Home,No,Yes
+946,28,Female,Medicaid,1946,2024-05-14,2024-05-20,6,2,Heart Failure,Home Health,No,Yes
+947,72,Female,Medicare,1947,2024-03-13,2024-03-22,9,3,Heart Failure,Home Health,No,No
+948,69,Male,Medicare,1948,2024-03-21,2024-03-23,2,0,Kidney Disease,Home Health,Yes,No
+949,43,Male,Private,1949,2024-03-03,2024-03-10,7,2,Kidney Disease,Home Health,No,Yes
+950,83,Male,Medicare,1950,2024-03-09,2024-03-15,6,2,Diabetes,Home Health,No,Yes
+951,85,Female,Private,1951,2024-01-31,2024-02-08,8,3,Diabetes,Home Health,Yes,No
+952,46,Female,Private,1952,2024-04-02,2024-04-09,7,2,Diabetes,Home Health,Yes,No
+953,78,Male,Private,1953,2024-05-17,2024-05-20,3,3,Kidney Disease,Skilled Nursing,Yes,Yes
+954,45,Male,Private,1954,2024-06-17,2024-06-26,9,2,Diabetes,Skilled Nursing,No,Yes
+955,80,Male,Medicare,1955,2024-01-30,2024-02-01,2,1,COPD,Skilled Nursing,Yes,No
+956,71,Female,Medicare,1956,2024-06-11,2024-06-15,4,1,Kidney Disease,Home,No,No
+957,32,Male,Private,1957,2024-01-26,2024-01-28,2,3,Kidney Disease,Home,No,Yes
+958,54,Male,Private,1958,2024-05-14,2024-05-18,4,0,COPD,Skilled Nursing,Yes,No
+959,60,Female,Medicaid,1959,2024-01-25,2024-01-31,6,0,Infection,Home Health,No,No
+960,39,Female,Medicaid,1960,2024-02-06,2024-02-12,6,3,Diabetes,Home,Yes,No
+961,32,Male,Private,1961,2024-05-12,2024-05-17,5,3,Heart Failure,Skilled Nursing,No,Yes
+962,25,Male,Private,1962,2024-06-12,2024-06-16,4,1,COPD,Skilled Nursing,Yes,No
+963,87,Female,Medicare,1963,2024-04-13,2024-04-21,8,0,Infection,Home,No,No
+964,58,Female,Private,1964,2024-06-22,2024-06-29,7,3,Infection,Home Health,No,Yes
+965,28,Male,Private,1965,2024-06-06,2024-06-14,8,1,Infection,Home,No,No
+966,27,Female,Private,1966,2024-05-21,2024-05-26,5,0,COPD,Home,Yes,No
+967,69,Male,Medicaid,1967,2024-02-03,2024-02-09,6,0,Infection,Skilled Nursing,No,No
+968,40,Female,Medicaid,1968,2024-03-06,2024-03-15,9,0,COPD,Home Health,No,No
+969,58,Female,Medicaid,1969,2024-05-03,2024-05-12,9,1,Infection,Skilled Nursing,Yes,No
+970,84,Male,Medicare,1970,2024-03-06,2024-03-09,3,1,Heart Failure,Home,No,No
+971,37,Male,Private,1971,2024-04-20,2024-04-28,8,3,Kidney Disease,Skilled Nursing,Yes,No
+972,58,Male,Private,1972,2024-02-08,2024-02-12,4,3,Infection,Home Health,No,Yes
+973,79,Female,Medicare,1973,2024-01-27,2024-02-03,7,0,Heart Failure,Skilled Nursing,Yes,Yes
+974,77,Female,Medicare,1974,2024-02-08,2024-02-10,2,0,Kidney Disease,Home,Yes,No
+975,54,Male,Private,1975,2024-01-13,2024-01-19,6,2,Diabetes,Home Health,Yes,No
+976,77,Male,Medicare,1976,2024-01-19,2024-01-21,2,0,COPD,Home Health,Yes,Yes
+977,55,Male,Medicaid,1977,2024-03-21,2024-03-29,8,2,Heart Failure,Home,Yes,No
+978,56,Female,Medicare,1978,2024-03-14,2024-03-17,3,3,Infection,Skilled Nursing,Yes,No
+979,78,Female,Medicare,1979,2024-02-21,2024-02-26,5,3,Heart Failure,Home,No,Yes
+980,38,Male,Private,1980,2024-06-26,2024-07-01,5,1,COPD,Home,Yes,No
+981,77,Female,Medicare,1981,2024-05-31,2024-06-08,8,1,Infection,Home Health,Yes,No
+982,54,Male,Medicaid,1982,2024-01-04,2024-01-10,6,2,COPD,Home,No,Yes
+983,32,Female,Medicaid,1983,2024-01-12,2024-01-20,8,2,Kidney Disease,Home,No,Yes
+984,58,Female,Private,1984,2024-03-22,2024-03-31,9,1,Infection,Home,Yes,No
+985,73,Male,Private,1985,2024-03-19,2024-03-21,2,2,Diabetes,Skilled Nursing,Yes,Yes
+986,50,Male,Medicare,1986,2024-01-18,2024-01-27,9,1,Diabetes,Home,Yes,No
+987,62,Male,Private,1987,2024-03-27,2024-04-05,9,1,Kidney Disease,Home Health,No,No
+988,32,Male,Medicare,1988,2024-06-17,2024-06-24,7,0,Infection,Home,Yes,No
+989,68,Female,Medicare,1989,2024-04-30,2024-05-09,9,0,Kidney Disease,Skilled Nursing,Yes,No
+990,52,Female,Medicaid,1990,2024-05-18,2024-05-20,2,0,Diabetes,Home,Yes,No
+991,43,Female,Private,1991,2024-05-16,2024-05-20,4,1,Infection,Home,No,No
+992,68,Male,Medicare,1992,2024-04-09,2024-04-12,3,2,COPD,Home,No,Yes
+993,75,Female,Medicare,1993,2024-05-20,2024-05-24,4,0,COPD,Skilled Nursing,Yes,Yes
+994,80,Male,Medicare,1994,2024-06-27,2024-07-03,6,0,Kidney Disease,Skilled Nursing,No,Yes
+995,82,Female,Medicare,1995,2024-06-05,2024-06-07,2,3,Kidney Disease,Skilled Nursing,No,No
+996,79,Female,Medicare,1996,2024-05-17,2024-05-25,8,2,Infection,Home Health,Yes,No
+997,45,Male,Medicaid,1997,2024-01-13,2024-01-19,6,0,COPD,Home,Yes,No
+998,48,Male,Private,1998,2024-04-17,2024-04-21,4,0,Heart Failure,Skilled Nursing,Yes,No
+999,71,Female,Medicare,1999,2024-01-25,2024-02-01,7,0,Diabetes,Home Health,Yes,No
+1000,45,Male,Private,2000,2024-03-24,2024-03-28,4,2,Diabetes,Home Health,Yes,No
